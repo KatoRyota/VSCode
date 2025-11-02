@@ -18,7 +18,7 @@
         "favoritesPanel.red": "#E06C75",
         "favoritesPanel.orange": "#D19A66",
         "favoritesPanel.yellow": "#FFD700",
-        "favoritesPanel.green": "#98C379",
+        "favoritesPanel.green": "#98C379"
     },
     "git.autofetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
@@ -31,7 +31,7 @@
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
         "plaintext": true,
-        "markdown": true,
+        "markdown": true
     },
     "maptz.regionfolder": {
         "[plaintext]": {
@@ -49,7 +49,7 @@
             "foldEndRegex": "<!--\\s*#endregion\\s*-->",
             "defaultFoldStartRegex": "<!--\\s*#region\\b.*-->",
             "disableFolding": false
-        },
+        }
     },
     "favoritesPanel.commands": [
         {
@@ -154,7 +154,7 @@
                     "arguments": [
                         "markdown-preview-enhanced.openPreview"
                     ]
-                },
+                }
             ]
         },
         {
@@ -179,7 +179,7 @@
                     "arguments": [
                         "markdown-preview-enhanced.customizeCss"
                     ]
-                },
+                }
             ]
         },
         {
@@ -204,7 +204,7 @@
                     "arguments": [
                         "editor.action.toggleColumnSelection"
                     ]
-                },
+                }
             ]
         },
         {
@@ -219,7 +219,7 @@
                     "arguments": [
                         "workbench.action.navigateToLastEditLocation"
                     ]
-                },
+                }
             ]
         },
         {
@@ -284,7 +284,7 @@
                     "arguments": [
                         "editor.action.startFindReplaceAction"
                     ]
-                },
+                }
             ]
         },
         {
@@ -299,7 +299,7 @@
                     "arguments": [
                         "workbench.action.terminal.runSelectedText"
                     ]
-                },
+                }
             ]
         },
         {
@@ -322,11 +322,11 @@
                             "arguments": [
                                 "workbench.action.terminal.sendSequence",
                                 {
-                                    "text": "find $DIR -type f -exec ls -1FA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} + "
+                                    "text": "find $DIR -type f -exec ls -1FA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
                                 }
                             ]
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "label": "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）",
@@ -348,8 +348,8 @@
                                     "text": "find $DIR -type f -exec ls -lFA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
                                 }
                             ]
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "label": "grep-find: 特定ディレクトリ配下の検索",
@@ -371,8 +371,8 @@
                                     "text": "find $DIR \\( -path '.git' $EXCLUDE_PATTERN \\) -prune -o -type f -exec grep -anHPi $SEARCH_PATTERN {} +"
                                 }
                             ]
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "label": "scp: リモート→踏み台",
@@ -394,8 +394,8 @@
                                     "text": "scp $SRC_PATH $USER@$DEST_HOST:$DEST_PATH"
                                 }
                             ]
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
                     "label": "scp: 踏み台→ローカル",
@@ -417,9 +417,9 @@
                                     "text": "scp $USER@$SRC_HOST:$SRC_PATH ~/Downloads/"
                                 }
                             ]
-                        },
-                    ],
-                },
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -445,10 +445,10 @@
                                     "text": "ssh $USER@$REMOTE_HOST"
                                 }
                             ]
-                        },
-                    ],
-                },
+                        }
+                    ]
+                }
             ]
-        },
-    ],
+        }
+    ]
 }
