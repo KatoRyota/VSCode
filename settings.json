@@ -162,7 +162,7 @@
             "commands": [
                 {
                     "label": "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え",
-                    "description": "<<22>>",
+                    "description": "<<F22>>",
                     "icon": "gear",
                     "iconColor": "favoritesPanel.cyan",
                     "command": "runCommand",
