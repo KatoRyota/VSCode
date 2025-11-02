@@ -1,0 +1,454 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.maxTokenizationLineLength": 10000000,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.showFoldingControls": "always",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "search.showLineNumbers": true,
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+    "workbench.colorCustomizations": {
+        "favoritesPanel.purple": "#C678DD",
+        "favoritesPanel.cyan": "#56B6C2",
+        "favoritesPanel.pink": "#FF69B4",
+        "favoritesPanel.lightBlue": "#61AFEF",
+        "favoritesPanel.red": "#E06C75",
+        "favoritesPanel.orange": "#D19A66",
+        "favoritesPanel.yellow": "#FFD700",
+        "favoritesPanel.green": "#98C379",
+    },
+    "git.autofetch": true,
+    "diffEditor.renderSideBySideInlineBreakpoint": 1,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "npm.exclude": "",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.enable": {
+        "plaintext": true,
+        "markdown": true,
+    },
+    "maptz.regionfolder": {
+        "[plaintext]": {
+            "foldStart": "#region [NAME]",
+            "foldEnd": "#endregion",
+            "foldStartRegex": "#region\\s*(.*)",
+            "foldEndRegex": "#endregion",
+            "defaultFoldStartRegex": "#region\\b",
+            "disableFolding": false
+        },
+        "[markdown]": {
+            "foldStart": "<!-- #region [NAME] -->",
+            "foldEnd": "<!-- #endregion -->",
+            "foldStartRegex": "<!--\\s*#region\\s*(.*)-->",
+            "foldEndRegex": "<!--\\s*#endregion\\s*-->",
+            "defaultFoldStartRegex": "<!--\\s*#region\\b.*-->",
+            "disableFolding": false
+        },
+    },
+    "favoritesPanel.commands": [
+        {
+            "label": "表示 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "表示: エディター グループのサイズをリセット",
+                    "description": "<<F13>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.evenEditorWidths"
+                    ]
+                },
+                {
+                    "label": "表示: エディター グループの最大化の切り替え",
+                    "description": "<<F14>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.toggleMaximizeEditorGroup"
+                    ]
+                },
+                {
+                    "label": "表示: プライマリ サイド バーの表示/非表示を切り替える",
+                    "description": "<<F15>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.toggleSidebarVisibility"
+                    ]
+                },
+                {
+                    "label": "表示: セカンダリ サイド バーの表示/非表示を切り替える",
+                    "description": "<<F16>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.toggleAuxiliaryBar"
+                    ]
+                },
+                {
+                    "label": "表示: パネルの表示/非表示の切り替え",
+                    "description": "<<F17>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.togglePanel"
+                    ]
+                },
+                {
+                    "label": "表示: [右端での折り返し] の設定/解除",
+                    "description": "<<F18>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.toggleWordWrap"
+                    ]
+                },
+                {
+                    "label": "選択範囲から折りたたみ範囲を作成する",
+                    "description": "<<F19>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.createFoldingRangeFromSelection"
+                    ]
+                },
+                {
+                    "label": "手動折りたたみ範囲を削除する",
+                    "description": "<<F20>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.removeManualFoldingRanges"
+                    ]
+                },
+                {
+                    "label": "Center Editor Window",
+                    "description": "<<F21>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "center-editor-window.center"
+                    ]
+                },
+                {
+                    "label": "Markdown: Markdown Preview Enhanced: Open Preview",
+                    "description": "",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.purple",
+                    "command": "runCommand",
+                    "arguments": [
+                        "markdown-preview-enhanced.openPreview"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "ファイル ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え",
+                    "description": "<<22>>",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.cyan",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.files.toggleActiveEditorReadonlyInSession"
+                    ]
+                },
+                {
+                    "label": "Markdown Preview Enhanced: Customize CSS (Global)",
+                    "description": "",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.cyan",
+                    "command": "runCommand",
+                    "arguments": [
+                        "markdown-preview-enhanced.customizeCss"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "選択 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "選択範囲を拡張",
+                    "description": "<<Shift+F13>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.pink",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.smartSelect.expand"
+                    ]
+                },
+                {
+                    "label": "列選択モードの切り替え",
+                    "description": "<<Shift+F14>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.pink",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.toggleColumnSelection"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "移動 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "最後の編集位置へ移動",
+                    "description": "<<Shift+F15>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.lightBlue",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.navigateToLastEditLocation"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "編集 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "ドキュメントのフォーマット",
+                    "description": "<<Shift+F16>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.formatDocument"
+                    ]
+                },
+                {
+                    "label": "選択範囲のフォーマット",
+                    "description": "<<Shift+F17>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.formatSelection"
+                    ]
+                },
+                {
+                    "label": "小文字に変換",
+                    "description": "<<Shift+F18>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.transformToLowercase"
+                    ]
+                },
+                {
+                    "label": "大文字に変換",
+                    "description": "<<Shift+F19>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.transformToUppercase"
+                    ]
+                },
+                {
+                    "label": "行をつなげる",
+                    "description": "<<Shift+F20>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.joinLines"
+                    ]
+                },
+                {
+                    "label": "置換",
+                    "description": "<<Shift+F21>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.red",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.startFindReplaceAction"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "ターミナル ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "ターミナル: アクティブなターミナルで選択したテキストを実行",
+                    "description": "<<Shift+F22>>",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.orange",
+                    "command": "runCommand",
+                    "arguments": [
+                        "workbench.action.terminal.runSelectedText"
+                    ]
+                },
+            ]
+        },
+        {
+            "label": "ターミナル.全般 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "find $DIR -type f -exec ls -1FA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} + "
+                                }
+                            ]
+                        },
+                    ],
+                },
+                {
+                    "label": "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "find $DIR -type f -exec ls -lFA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
+                                }
+                            ]
+                        },
+                    ],
+                },
+                {
+                    "label": "grep-find: 特定ディレクトリ配下の検索",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "find $DIR \\( -path '.git' $EXCLUDE_PATTERN \\) -prune -o -type f -exec grep -anHPi $SEARCH_PATTERN {} +"
+                                }
+                            ]
+                        },
+                    ],
+                },
+                {
+                    "label": "scp: リモート→踏み台",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "scp $SRC_PATH $USER@$DEST_HOST:$DEST_PATH"
+                                }
+                            ]
+                        },
+                    ],
+                },
+                {
+                    "label": "scp: 踏み台→ローカル",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "scp $USER@$SRC_HOST:$SRC_PATH ~/Downloads/"
+                                }
+                            ]
+                        },
+                    ],
+                },
+            ]
+        },
+        {
+            "label": "ターミナル.SSHログイン ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+            "commands": [
+                {
+                    "label": "ssh: リモートサーバー",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.green",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "ssh $USER@$REMOTE_HOST"
+                                }
+                            ]
+                        },
+                    ],
+                },
+            ]
+        },
+    ],
+}
