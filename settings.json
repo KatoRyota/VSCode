@@ -3,6 +3,7 @@
     "editor.maxTokenizationLineLength": 10000000,
     "editor.find.autoFindInSelection": "multiline",
     "editor.find.seedSearchStringFromSelection": "selection",
+    "editor.renderWhitespace": "all",
     "editor.showFoldingControls": "always",
     "editor.rulers": [
         80,
