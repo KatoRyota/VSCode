@@ -170,16 +170,6 @@
                     "arguments": [
                         "workbench.action.files.toggleActiveEditorReadonlyInSession"
                     ]
-                },
-                {
-                    "label": "Markdown Preview Enhanced: Customize CSS (Global)",
-                    "description": "",
-                    "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan",
-                    "command": "runCommand",
-                    "arguments": [
-                        "markdown-preview-enhanced.customizeCss"
-                    ]
                 }
             ]
         },
