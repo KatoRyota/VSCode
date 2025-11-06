@@ -220,6 +220,16 @@
                     "arguments": [
                         "workbench.action.navigateToLastEditLocation"
                     ]
+                },
+                {
+                    "label": "ブラケットへ移動",
+                    "description": "<<Shift+F16>>",
+                    "icon": "zap",
+                    "iconColor": "favoritesPanel.lightBlue",
+                    "command": "runCommand",
+                    "arguments": [
+                        "editor.action.jumpToBracket"
+                    ]
                 }
             ]
         },
@@ -228,7 +238,7 @@
             "commands": [
                 {
                     "label": "ドキュメントのフォーマット",
-                    "description": "<<Shift+F16>>",
+                    "description": "<<Shift+F17>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -238,7 +248,7 @@
                 },
                 {
                     "label": "選択範囲のフォーマット",
-                    "description": "<<Shift+F17>>",
+                    "description": "<<Shift+F18>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -248,7 +258,7 @@
                 },
                 {
                     "label": "小文字に変換",
-                    "description": "<<Shift+F18>>",
+                    "description": "<<Shift+F19>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -258,7 +268,7 @@
                 },
                 {
                     "label": "大文字に変換",
-                    "description": "<<Shift+F19>>",
+                    "description": "<<Shift+F20>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -268,7 +278,7 @@
                 },
                 {
                     "label": "行をつなげる",
-                    "description": "<<Shift+F20>>",
+                    "description": "<<Shift+F21>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -278,7 +288,7 @@
                 },
                 {
                     "label": "置換",
-                    "description": "<<Shift+F21>>",
+                    "description": "<<Shift+F22>>",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red",
                     "command": "runCommand",
@@ -293,7 +303,7 @@
             "commands": [
                 {
                     "label": "ターミナル: アクティブなターミナルで選択したテキストを実行",
-                    "description": "<<Shift+F22>>",
+                    "description": "<<Shift+F23>>",
                     "icon": "terminal",
                     "iconColor": "favoritesPanel.orange",
                     "command": "runCommand",

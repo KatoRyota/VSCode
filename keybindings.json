@@ -59,34 +59,39 @@
     },
     {
         "key": "shift+f16",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f17",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "shift+f17",
+        "key": "shift+f18",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f18",
+        "key": "shift+f19",
         "command": "editor.action.transformToLowercase"
     },
     {
-        "key": "shift+f19",
+        "key": "shift+f20",
         "command": "editor.action.transformToUppercase"
     },
     {
-        "key": "shift+f20",
+        "key": "shift+f21",
         "command": "editor.action.joinLines",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f21",
+        "key": "shift+f22",
         "command": "editor.action.startFindReplaceAction",
         "when": "editorFocus || editorIsOpen"
     },
     {
-        "key": "shift+f22",
+        "key": "shift+f23",
         "command": "workbench.action.terminal.runSelectedText"
     }
 ]
