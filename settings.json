@@ -11,6 +11,7 @@
     ],
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+    "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
         "favoritesPanel.purple": "#C678DD",
         "favoritesPanel.cyan": "#56B6C2",
