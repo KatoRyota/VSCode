@@ -27,71 +27,104 @@
     },
     {
         "key": "f19",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "f20",
         "command": "editor.createFoldingRangeFromSelection",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "f20",
+        "key": "f21",
         "command": "editor.removeManualFoldingRanges",
         "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "f21",
-        "command": "center-editor-window.center",
-        "when": "editorTextFocus || findWidgetVisible"
     },
     {
         "key": "f22",
         "command": "workbench.action.files.toggleActiveEditorReadonlyInSession"
     },
     {
-        "key": "shift+f13",
+        "key": "f23",
+        "command": "markdown-preview-enhanced.openPreview",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+f13",
         "command": "editor.action.smartSelect.expand",
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+f14",
+        "key": "ctrl+f14",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f15",
         "command": "editor.action.toggleColumnSelection"
     },
     {
-        "key": "shift+f15",
+        "key": "ctrl+f16",
         "command": "workbench.action.navigateToLastEditLocation"
     },
     {
-        "key": "shift+f16",
+        "key": "ctrl+f17",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+f17",
-        "command": "editor.action.formatDocument",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+        "key": "ctrl+f18",
+        "command": "workbench.action.gotoLine"
     },
     {
-        "key": "shift+f18",
-        "command": "editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+        "key": "ctrl+f19",
+        "command": "center-editor-window.center",
+        "when": "editorTextFocus || findWidgetVisible"
     },
     {
-        "key": "shift+f19",
-        "command": "editor.action.transformToLowercase"
-    },
-    {
-        "key": "shift+f20",
-        "command": "editor.action.transformToUppercase"
-    },
-    {
-        "key": "shift+f21",
-        "command": "editor.action.joinLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+f22",
+        "key": "shift+f13",
         "command": "editor.action.startFindReplaceAction",
         "when": "editorFocus || editorIsOpen"
     },
     {
-        "key": "shift+f23",
+        "key": "shift+f14",
+        "command": "editor.action.duplicateSelection",
+        "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f15",
+        "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "shift+f16",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "shift+f17",
+        "command": "editor.action.joinLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f18",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f19",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f20",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "shift+f21",
+        "command": "editor.action.formatSelection",
+        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f22",
         "command": "workbench.action.terminal.runSelectedText"
     },
     {
