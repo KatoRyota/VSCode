@@ -45,8 +45,7 @@
     },
     {
         "key": "f23",
-        "command": "markdown-preview-enhanced.openPreview",
-        "when": "editorLangId == 'markdown'"
+        "command": "markdown.showLockedPreviewToSide"
     },
     {
         "key": "ctrl+f13",

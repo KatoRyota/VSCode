@@ -164,13 +164,13 @@
                     ]
                 },
                 {
-                    "label": "Markdown: Markdown Preview Enhanced: Open Preview <<F23>>",
+                    "label": "Markdown: ロックされたプレビューを横に表示 <<F23>>",
                     "description": "",
                     "icon": "gear",
                     "iconColor": "favoritesPanel.cyan",
                     "command": "runCommand",
                     "arguments": [
-                        "markdown-preview-enhanced.openPreview"
+                        "markdown.showLockedPreviewToSide"
                     ]
                 }
             ]
