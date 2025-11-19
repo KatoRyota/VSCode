@@ -28,6 +28,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.hideUnchangedRegions.enabled": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.allowChords": false,
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
