@@ -461,7 +461,7 @@
                     ]
                 },
                 {
-                    "label": "cygpath: WindowsのパスをUNIX形式に変換",
+                    "label": "cygpath: WindowsのパスをUnix形式に変換",
                     "description": "",
                     "icon": "terminal",
                     "iconColor": "favoritesPanel.yellow",
