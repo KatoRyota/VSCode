@@ -455,7 +455,7 @@
                             "arguments": [
                                 "workbench.action.terminal.sendSequence",
                                 {
-                                    "text": "diff -qr $(cygpath -u \"$DIR_1\") $(cygpath -u \"$DIR_2\")"
+                                    "text": "diff -qr -x \"$EXCLUDE_PATTERN\" $(cygpath -u \"$DIR_1\") $(cygpath -u \"$DIR_2\")"
                                 }
                             ]
                         }
