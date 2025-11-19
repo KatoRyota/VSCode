@@ -438,6 +438,52 @@
                     ]
                 },
                 {
+                    "label": "diff: ディレクトリ間の差分比較（Windows）",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "diff -qr $(cygpath -u \"$DIR_1\") $(cygpath -u \"$DIR_2\")"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "cygpath: WindowsのパスをUNIX形式に変換",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.yellow",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "cygpath -u \"$WIN_PATH\""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "label": "scp: リモート→踏み台",
                     "description": "",
                     "icon": "terminal",
