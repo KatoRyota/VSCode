@@ -139,5 +139,9 @@
         "key": "ctrl+w",
         "command": "workbench.action.closeGroup",
         "when": "activeEditorGroupEmpty && multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.saveAll"
     }
 ]
