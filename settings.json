@@ -32,6 +32,7 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
+    "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
         "plaintext": true,
