@@ -34,6 +34,8 @@
     "npm.exclude": "",
     "git-graph.commitDetailsView.location": "Docked to Bottom",
     "git-graph.commitDetailsView.autoCenter": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
