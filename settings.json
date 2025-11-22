@@ -32,6 +32,8 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
+    "git-graph.commitDetailsView.location": "Docked to Bottom",
+    "git-graph.commitDetailsView.autoCenter": false,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
