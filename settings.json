@@ -33,7 +33,6 @@
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
     "git-log--graph.details-panel-position": "bottom",
-    "git-graph.commitDetailsView.location": "Docked to Bottom",
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
