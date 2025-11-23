@@ -33,9 +33,6 @@
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
     "git-graph.commitDetailsView.location": "Docked to Bottom",
-    "git-graph.commitDetailsView.autoCenter": false,
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
@@ -177,6 +174,16 @@
                     "command": "runCommand",
                     "arguments": [
                         "markdown.showLockedPreviewToSide"
+                    ]
+                },
+                {
+                    "label": "GitHD: View Branch Diff",
+                    "description": "",
+                    "icon": "gear",
+                    "iconColor": "favoritesPanel.cyan",
+                    "command": "runCommand",
+                    "arguments": [
+                        "githd.diffBranch"
                     ]
                 }
             ]
