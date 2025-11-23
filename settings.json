@@ -324,13 +324,39 @@
         },
         "ターミナル.SSHログイン": {
             "nestedItems": {
-                "ssh: リモートサーバー": {
+                "ssh: 踏み台サーバー": {
                     "sequence": [
                         "workbench.action.terminal.focus",
                         {
                             "command": "workbench.action.terminal.sendSequence",
                             "args": {
                                 "text": "ssh $USER@$REMOTE_HOST"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.green"
+                },
+                "ssh: リモートサーバー-01": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "ssh $REMOTE_HOST"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.green"
+                },
+                "ssh: リモートサーバー-02": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "ssh $REMOTE_HOST"
                             }
                         }
                     ],
@@ -831,7 +857,7 @@
             "label": "ターミナル.SSHログイン ━━━━━━━━━━━━━━━━",
             "commands": [
                 {
-                    "label": "ssh: リモートサーバー",
+                    "label": "ssh: 踏み台サーバー",
                     "description": "",
                     "icon": "terminal",
                     "iconColor": "favoritesPanel.green",
@@ -848,6 +874,52 @@
                                 "workbench.action.terminal.sendSequence",
                                 {
                                     "text": "ssh $USER@$REMOTE_HOST"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "ssh: リモートサーバー-01",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.green",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "ssh $REMOTE_HOST"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "ssh: リモートサーバー-02",
+                    "description": "",
+                    "icon": "terminal",
+                    "iconColor": "favoritesPanel.green",
+                    "sequence": [
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.focus"
+                            ]
+                        },
+                        {
+                            "command": "runCommand",
+                            "arguments": [
+                                "workbench.action.terminal.sendSequence",
+                                {
+                                    "text": "ssh $REMOTE_HOST"
                                 }
                             ]
                         }
