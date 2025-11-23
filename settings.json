@@ -33,6 +33,8 @@
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
     "git-log--graph.details-panel-position": "bottom",
+    "githd.logView.expressMode": true,
+    "githd.blameView.enabled": false,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
