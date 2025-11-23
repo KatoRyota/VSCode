@@ -177,7 +177,7 @@
                     "iconColor": "favoritesPanel.red"
                 },
                 "選択範囲の複製 <<Shift+F14>>": {
-                    "command": "",
+                    "command": "editor.action.duplicateSelection",
                     "icon": "zap",
                     "iconColor": "favoritesPanel.red"
                 },
