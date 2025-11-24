@@ -13,16 +13,6 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.editor.enablePreview": false,
-    "workbench.colorCustomizations": {
-        "favoritesPanel.purple": "#C678DD",
-        "favoritesPanel.cyan": "#56B6C2",
-        "favoritesPanel.pink": "#FF69B4",
-        "favoritesPanel.lightBlue": "#61AFEF",
-        "favoritesPanel.red": "#E06C75",
-        "favoritesPanel.orange": "#D19A66",
-        "favoritesPanel.yellow": "#FFD700",
-        "favoritesPanel.green": "#98C379"
-    },
     "git.autofetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
@@ -65,37 +55,37 @@
                 "表示: エディター グループのサイズをリセット <<F13>>": {
                     "command": "workbench.action.evenEditorWidths",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: エディター グループの最大化の切り替え <<F14>>": {
                     "command": "workbench.action.toggleMaximizeEditorGroup",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: プライマリ サイド バーの表示/非表示を切り替える <<F15>>": {
                     "command": "workbench.action.toggleSidebarVisibility",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: セカンダリ サイド バーの表示/非表示を切り替える <<F16>>": {
                     "command": "workbench.action.toggleAuxiliaryBar",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: パネルの表示/非表示の切り替え <<F17>>": {
                     "command": "workbench.action.togglePanel",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: [右端での折り返し] の設定/解除 <<F18>>": {
                     "command": "editor.action.toggleWordWrap",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 },
                 "表示: エディターの分割 <<F19>>": {
                     "command": "workbench.action.splitEditor",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.purple"
+                    "iconColor": "terminal.ansiBlue"
                 }
             }
         },
@@ -104,27 +94,27 @@
                 "選択範囲から折りたたみ範囲を作成する <<F20>>": {
                     "command": "editor.createFoldingRangeFromSelection",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan"
+                    "iconColor": "terminal.ansiGreen"
                 },
                 "手動折りたたみ範囲を削除する <<F21>>": {
                     "command": "editor.removeManualFoldingRanges",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan"
+                    "iconColor": "terminal.ansiGreen"
                 },
                 "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え <<F22>>": {
                     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan"
+                    "iconColor": "terminal.ansiGreen"
                 },
                 "Markdown: ロックされたプレビューを横に表示 <<F23>>": {
                     "command": "markdown.showLockedPreviewToSide",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan"
+                    "iconColor": "terminal.ansiGreen"
                 },
                 "GitHD: View Branch Diff": {
                     "command": "githd.diffBranch",
                     "icon": "gear",
-                    "iconColor": "favoritesPanel.cyan"
+                    "iconColor": "terminal.ansiGreen"
                 }
             }
         },
@@ -133,17 +123,17 @@
                 "選択範囲を拡張 <<Ctrl+F13>>": {
                     "command": "editor.action.smartSelect.expand",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.pink"
+                    "iconColor": "terminal.ansiMagenta"
                 },
                 "選択範囲を縮小 <<Ctrl+F14>>": {
                     "command": "editor.action.smartSelect.shrink",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.pink"
+                    "iconColor": "terminal.ansiMagenta"
                 },
                 "列選択モードの切り替え <<Ctrl+F15>>": {
                     "command": "editor.action.toggleColumnSelection",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.pink"
+                    "iconColor": "terminal.ansiMagenta"
                 }
             }
         },
@@ -152,22 +142,22 @@
                 "最後の編集位置へ移動 <<Ctrl+F16>>": {
                     "command": "workbench.action.navigateToLastEditLocation",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.lightBlue"
+                    "iconColor": "terminal.ansiRed"
                 },
                 "ブラケットへ移動 <<Ctrl+F17>>": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.lightBlue"
+                    "iconColor": "terminal.ansiRed"
                 },
                 "行/列に移動... <<Ctrl+F18>>": {
                     "command": "workbench.action.gotoLine",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.lightBlue"
+                    "iconColor": "terminal.ansiRed"
                 },
                 "Center Editor Window <<Ctrl+F19>>": {
                     "command": "center-editor-window.center",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.lightBlue"
+                    "iconColor": "terminal.ansiRed"
                 }
             }
         },
@@ -176,47 +166,47 @@
                 "置換 <<Shift+F13>>": {
                     "command": "editor.action.startFindReplaceAction",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "選択範囲の複製 <<Shift+F14>>": {
                     "command": "editor.action.duplicateSelection",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "小文字に変換 <<Shift+F15>>": {
                     "command": "editor.action.transformToLowercase",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "大文字に変換 <<Shift+F16>>": {
                     "command": "editor.action.transformToUppercase",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "行をつなげる <<Shift+F17>>": {
                     "command": "editor.action.joinLines",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "行コメントの切り替え <<Shift+F18>>": {
                     "command": "editor.action.commentLine",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "ブロック コメントの切り替え <<Shift+F19>>": {
                     "command": "editor.action.blockComment",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "ドキュメントのフォーマット <<Shift+F20>>": {
                     "command": "editor.action.formatDocument",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 },
                 "選択範囲のフォーマット <<Shift+F21>>": {
                     "command": "editor.action.formatSelection",
                     "icon": "zap",
-                    "iconColor": "favoritesPanel.red"
+                    "iconColor": "terminal.ansiYellow"
                 }
             }
         },
@@ -225,7 +215,7 @@
                 "ターミナル: アクティブなターミナルで選択したテキストを実行 <<Shift+F22>>": {
                     "command": "workbench.action.terminal.runSelectedText",
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.orange"
+                    "iconColor": "terminal.ansiCyan"
                 }
             }
         },
@@ -242,7 +232,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）": {
                     "sequence": [
@@ -255,7 +245,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "grep-find: 特定ディレクトリ配下の検索": {
                     "sequence": [
@@ -268,7 +258,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "diff: ディレクトリ間の差分比較（Windows）": {
                     "sequence": [
@@ -281,7 +271,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "cygpath: WindowsのパスをUnix形式に変換": {
                     "sequence": [
@@ -294,7 +284,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "scp: リモート→踏み台": {
                     "sequence": [
@@ -307,7 +297,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 },
                 "scp: 踏み台→ローカル": {
                     "sequence": [
@@ -320,7 +310,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.yellow"
+                    "iconColor": "terminal.ansiBrightMagenta"
                 }
             }
         },
@@ -337,7 +327,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.green"
+                    "iconColor": "terminal.ansiBrightGreen"
                 },
                 "ssh: リモートサーバー-01": {
                     "sequence": [
@@ -350,7 +340,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.green"
+                    "iconColor": "terminal.ansiBrightGreen"
                 },
                 "ssh: リモートサーバー-02": {
                     "sequence": [
@@ -363,7 +353,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "favoritesPanel.green"
+                    "iconColor": "terminal.ansiBrightGreen"
                 }
             }
         }
