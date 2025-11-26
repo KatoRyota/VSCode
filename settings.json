@@ -88,6 +88,31 @@
                     "command": "workbench.action.splitEditor",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue"
+                },
+                "レベル 1 で折りたたむ": {
+                    "command": "editor.foldLevel1",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
+                "レベル 2 で折りたたむ": {
+                    "command": "editor.foldLevel2",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
+                "レベル 3 で折りたたむ": {
+                    "command": "editor.foldLevel3",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
+                "レベル 4 で折りたたむ": {
+                    "command": "editor.foldLevel4",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
+                "すべて展開": {
+                    "command": "editor.unfoldAll",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
                 }
             }
         },
