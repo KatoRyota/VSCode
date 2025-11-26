@@ -44,10 +44,6 @@
         "command": "workbench.action.files.toggleActiveEditorReadonlyInSession"
     },
     {
-        "key": "f23",
-        "command": "markdown.showLockedPreviewToSide"
-    },
-    {
         "key": "ctrl+f13",
         "command": "workbench.action.navigateToLastEditLocation"
     },
