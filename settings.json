@@ -145,25 +145,6 @@
                 }
             }
         },
-        "選択": {
-            "nestedItems": {
-                "選択範囲を拡張 <<Ctrl+F13>>": {
-                    "command": "editor.action.smartSelect.expand",
-                    "icon": "selection",
-                    "iconColor": "terminal.ansiMagenta"
-                },
-                "選択範囲を縮小 <<Ctrl+F14>>": {
-                    "command": "editor.action.smartSelect.shrink",
-                    "icon": "selection",
-                    "iconColor": "terminal.ansiMagenta"
-                },
-                "列選択モードの切り替え <<Ctrl+F15>>": {
-                    "command": "editor.action.toggleColumnSelection",
-                    "icon": "selection",
-                    "iconColor": "terminal.ansiMagenta"
-                }
-            }
-        },
         "移動": {
             "nestedItems": {
                 "最後の編集位置へ移動 <<Ctrl+F16>>": {
@@ -185,6 +166,25 @@
                     "command": "center-editor-window.center",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
+                }
+            }
+        },
+        "選択": {
+            "nestedItems": {
+                "選択範囲を拡張 <<Ctrl+F13>>": {
+                    "command": "editor.action.smartSelect.expand",
+                    "icon": "selection",
+                    "iconColor": "terminal.ansiMagenta"
+                },
+                "選択範囲を縮小 <<Ctrl+F14>>": {
+                    "command": "editor.action.smartSelect.shrink",
+                    "icon": "selection",
+                    "iconColor": "terminal.ansiMagenta"
+                },
+                "列選択モードの切り替え <<Ctrl+F15>>": {
+                    "command": "editor.action.toggleColumnSelection",
+                    "icon": "selection",
+                    "iconColor": "terminal.ansiMagenta"
                 }
             }
         },
