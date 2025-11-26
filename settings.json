@@ -109,6 +109,11 @@
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue"
                 },
+                "レベル 5 で折りたたむ": {
+                    "command": "editor.foldLevel5",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
                 "すべて展開": {
                     "command": "editor.unfoldAll",
                     "icon": "window",
