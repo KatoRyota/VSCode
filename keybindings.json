@@ -49,35 +49,35 @@
     },
     {
         "key": "ctrl+f13",
-        "command": "editor.action.smartSelect.expand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f14",
-        "command": "editor.action.smartSelect.shrink",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f15",
-        "command": "editor.action.toggleColumnSelection"
-    },
-    {
-        "key": "ctrl+f16",
         "command": "workbench.action.navigateToLastEditLocation"
     },
     {
-        "key": "ctrl+f17",
+        "key": "ctrl+f14",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+f18",
+        "key": "ctrl+f15",
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+f19",
+        "key": "ctrl+f16",
         "command": "center-editor-window.center",
         "when": "editorTextFocus || findWidgetVisible"
+    },
+    {
+        "key": "ctrl+f17",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f18",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f19",
+        "command": "editor.action.toggleColumnSelection"
     },
     {
         "key": "shift+f13",
