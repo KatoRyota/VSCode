@@ -147,22 +147,22 @@
         },
         "移動": {
             "nestedItems": {
-                "最後の編集位置へ移動 <<Ctrl+F16>>": {
+                "最後の編集位置へ移動 <<Ctrl+F13>>": {
                     "command": "workbench.action.navigateToLastEditLocation",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
                 },
-                "ブラケットへ移動 <<Ctrl+F17>>": {
+                "ブラケットへ移動 <<Ctrl+F14>>": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
                 },
-                "行/列に移動... <<Ctrl+F18>>": {
+                "行/列に移動... <<Ctrl+F15>>": {
                     "command": "workbench.action.gotoLine",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
                 },
-                "Center Editor Window <<Ctrl+F19>>": {
+                "Center Editor Window <<Ctrl+F16>>": {
                     "command": "center-editor-window.center",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
@@ -171,17 +171,17 @@
         },
         "選択": {
             "nestedItems": {
-                "選択範囲を拡張 <<Ctrl+F13>>": {
+                "選択範囲を拡張 <<Ctrl+F17>>": {
                     "command": "editor.action.smartSelect.expand",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta"
                 },
-                "選択範囲を縮小 <<Ctrl+F14>>": {
+                "選択範囲を縮小 <<Ctrl+F18>>": {
                     "command": "editor.action.smartSelect.shrink",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta"
                 },
-                "列選択モードの切り替え <<Ctrl+F15>>": {
+                "列選択モードの切り替え <<Ctrl+F19>>": {
                     "command": "editor.action.toggleColumnSelection",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta"
