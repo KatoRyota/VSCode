@@ -16,7 +16,7 @@
     "git.autofetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.hideUnchangedRegions.enabled": false,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.allowChords": false,
     "terminal.integrated.sendKeybindingsToShell": true,
