@@ -239,6 +239,31 @@
                     "command": "editor.action.formatSelection",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow"
+                },
+                "Markdown All in One: Create Table of Contents": {
+                    "command": "markdown.extension.toc.create",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
+                "Markdown All in One: Add/Update section numbers": {
+                    "command": "markdown.extension.toc.addSecNumbers",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
+                "Markdown All in One: Remove section numbers": {
+                    "command": "markdown.extension.toc.removeSecNumbers",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
+                "Markdown All in One: Toggle code block": {
+                    "command": "markdown.extension.editing.toggleCodeBlock",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
+                "Markdown All in One: Toggle list": {
+                    "command": "markdown.extension.editing.toggleList",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
                 }
             }
         },
