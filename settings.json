@@ -114,8 +114,13 @@
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue"
                 },
-                "すべて展開": {
-                    "command": "editor.unfoldAll",
+                "選択した項目を除くすべて折りたたみ": {
+                    "command": "editor.foldAllExcept",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue"
+                },
+                "選択した項目を除くすべて展開": {
+                    "command": "editor.unfoldAllExcept",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue"
                 }
