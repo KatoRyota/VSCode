@@ -1,55 +1,60 @@
 ≪目次≫
-- [1. VSCode Custom Settings](#1-vscode-custom-settings)
+- [1. VSCode Workspace](#1-vscode-workspace)
   - [1.1. 構成](#11-構成)
-    - [1.1.1. ファイル概要](#111-ファイル概要)
-  - [1.2. 使い方](#12-使い方)
-  - [1.3. 拡張機能例](#13-拡張機能例)
-  - [1.4. ライセンス](#14-ライセンス)
+  - [1.2. 主な拡張機能](#12-主な拡張機能)
+  - [1.3. キーバインド例](#13-キーバインド例)
+  - [1.4. Markdown プレビュー用スタイル](#14-markdown-プレビュー用スタイル)
+  - [1.5. 使い方](#15-使い方)
 
-# 1. VSCode Custom Settings
+# 1. VSCode Workspace
 
-このリポジトリは、Visual Studio Code のカスタム設定・キーバインド・拡張機能用スタイルを管理するためのものです。
+このリポジトリは、Visual Studio Code のカスタム設定・キーバインド・拡張機能リスト、および Markdown プレビュー用スタイルを管理するためのものです。
 
 ## 1.1. 構成
 
-```
-.gitignore
-keybindings.json
-settings.json
-README.md
-markdown-preview-enhanced/
-  └ style.less
-```
+- `.gitignore`  
+  Visual Studio/VSCode関連の不要ファイルを除外します。
+- `extensions.txt`  
+  利用している VSCode 拡張機能一覧。
+- `keybindings.json`  
+  独自のキーバインド設定。
+- `settings.json`  
+  エディターや拡張機能の詳細設定。
+- `markdown-preview-enhanced/style.less`  
+  [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 用のカスタム CSS。
 
-### 1.1.1. ファイル概要
+## 1.2. 主な拡張機能
 
-- **keybindings.json**  
-  VSCode のキーバインド設定。F13～F22やCtrl/Shiftとの組み合わせで多彩な操作を割り当てています。
+`extensions.txt` に記載された拡張機能例:
+- GitHub Copilot / Copilot Chat
+- Markdown Preview Enhanced
+- Markdown All in One
+- Markdown Table
+- Githd / Git Log -- Graph
+- SQL Developer / MySQL Shell
+- Region Folder
+- Center Editor Window
+- その他便利系
 
-- **settings.json**  
-  エディターやターミナル、拡張機能の詳細な設定。Markdownやターミナルコマンドのカスタムコマンドも含まれています。
+## 1.3. キーバインド例
 
-- **markdown-preview-enhanced/style.less**  
-  [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 用のカスタムCSS。プレビューやサイドバーの幅を調整しています。
+`keybindings.json` で F13～F22, Ctrl+F13～F19, Shift+F13～F22 などに各種コマンドを割り当てています。
 
-- **.gitignore**  
-  Visual Studio/VSCode関連の不要ファイルを除外するための設定。
+## 1.4. Markdown プレビュー用スタイル
 
-## 1.2. 使い方
+`markdown-preview-enhanced/style.less` でプレビューの幅やサイドバーの幅を調整しています。
 
-1. `keybindings.json` と `settings.json` を VSCode のユーザー設定ディレクトリにコピーしてください。
-2. `markdown-preview-enhanced/style.less` を拡張機能の設定で参照することで、Markdownプレビューの表示をカスタマイズできます。
+## 1.5. 使い方
 
-## 1.3. 拡張機能例
-
-- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-- [Markdown Table Prettify](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
-
-## 1.4. ライセンス
-
-このリポジトリの内容は MIT ライセンスのもとで公開されています。
+1. VSCode の設定フォルダに各ファイルを配置してください。
+2. `extensions.txt` の内容を参考に拡張機能をインストールしてください。
+3. Markdown プレビューの見た目をカスタマイズしたい場合は `style.less` を編集してください。
 
 ---
 
-ご質問や提案があれば Issue からご連絡ください。
+詳細は各ファイルをご参照ください。
+
+- [settings.json](settings.json)
+- [keybindings.json](keybindings.json)
+- [extensions.txt](extensions.txt)
+- [markdown-preview-enhanced/style.less](markdown-preview-enhanced/style.less)
