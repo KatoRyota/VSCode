@@ -246,6 +246,16 @@
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow"
                 },
+                "Region folding: Wrap selection with #region tag.": {
+                    "command": "regionfolder.wrapWithRegion",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
+                "Region folding: Delete current #region tags": {
+                    "command": "regionfolder.removeCurrentRegionTags",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow"
+                },
                 "Markdown All in One: Create Table of Contents": {
                     "command": "markdown.extension.toc.create",
                     "icon": "edit",
