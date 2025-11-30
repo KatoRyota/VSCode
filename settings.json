@@ -328,12 +328,8 @@
                 "ターミナル: アクティブなターミナルで選択したテキストを実行 <<Shift+F22>>": {
                     "command": "workbench.action.terminal.runSelectedText",
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiCyan"
-                }
-            }
-        },
-        "ターミナル.全般": {
-            "nestedItems": {
+                    "iconColor": "terminal.ansiBrightMagenta"
+                },
                 "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）": {
                     "sequence": [
                         "workbench.action.terminal.focus",
