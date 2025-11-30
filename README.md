@@ -1,45 +1,55 @@
-# VSCode
+≪目次≫
+- [1. VSCode Custom Settings](#1-vscode-custom-settings)
+  - [1.1. 構成](#11-構成)
+    - [1.1.1. ファイル概要](#111-ファイル概要)
+  - [1.2. 使い方](#12-使い方)
+  - [1.3. 拡張機能例](#13-拡張機能例)
+  - [1.4. ライセンス](#14-ライセンス)
 
-## 概要
-このリポジトリは、Windows 上の Visual Studio Code 用の個人設定コレクションです。主に以下のユーザー設定とキー バインド、FavoritesPanel 用のコマンド定義を含みます。
+# 1. VSCode Custom Settings
 
-## 含まれるファイル
-- settings.json — エディタやターミナル等の設定
-- keybindings.json — カスタムキー割り当て
-- README.md — 本ファイル
+このリポジトリは、Visual Studio Code のカスタム設定・キーバインド・拡張機能用スタイルを管理するためのものです。
 
-## 主な設定ポイント
-- ミニマップ無効化（editor.minimap.enabled: false）
-- 行ルーラー: 80, 120
-- ターミナル既定プロファイル: Git Bash
-- git.autofetch を有効化
-- favoritesPanel にショートカット群を登録（多用する表示/編集/ターミナル操作など）
-- 地域別の折りたたみ（maptz.regionfolder）設定
+## 1.1. 構成
 
-## インストール（Windows）
-1. VS Code を閉じる。  
-2. 既存の設定をバックアップ：
-   - PowerShell:
-     ```
-     Copy-Item "$env:APPDATA\Code\User\settings.json" "$env:USERPROFILE\Desktop\settings.json.backup" -ErrorAction SilentlyContinue
-     Copy-Item "$env:APPDATA\Code\User\keybindings.json" "$env:USERPROFILE\Desktop\keybindings.json.backup" -ErrorAction SilentlyContinue
-     ```
-3. 本リポジトリのファイルを VS Code ユーザー設定フォルダーへコピー：
-   - PowerShell:
-     ```
-     Copy-Item "c:\Users\kator\repo\VSCode\settings.json" "$env:APPDATA\Code\User\settings.json" -Force
-     Copy-Item "c:\Users\kator\repo\VSCode\keybindings.json" "$env:APPDATA\Code\User\keybindings.json" -Force
-     ```
-4. VS Code を再起動して設定を反映。
+```
+.gitignore
+keybindings.json
+settings.json
+README.md
+markdown-preview-enhanced/
+  └ style.less
+```
 
-（Insiders 版やポータブル版を使用している場合は、対応するユーザーフォルダーへコピーしてください。）
+### 1.1.1. ファイル概要
 
-## カスタマイズ
-必要に応じて settings.json と keybindings.json を編集して個人のワークフローに合わせてください。FavoritesPanel のコマンドはシーケンス送信（ターミナル実行など）を含むため、環境変数やパスに合わせて書き換えることを推奨します。
+- **keybindings.json**  
+  VSCode のキーバインド設定。F13～F22やCtrl/Shiftとの組み合わせで多彩な操作を割り当てています。
 
-## 貢献・注意
-- 個人用設定のため、導入前に現行設定のバックアップを必ず行ってください。
-- 改善提案や修正はプルリクエストで受け付けます。
+- **settings.json**  
+  エディターやターミナル、拡張機能の詳細な設定。Markdownやターミナルコマンドのカスタムコマンドも含まれています。
 
-## ライセンス
-個人用設定リポジトリ。特に指定がない限り自由に利用して構いませんが、変更点は自己責任で適用してください。
+- **markdown-preview-enhanced/style.less**  
+  [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css) 用のカスタムCSS。プレビューやサイドバーの幅を調整しています。
+
+- **.gitignore**  
+  Visual Studio/VSCode関連の不要ファイルを除外するための設定。
+
+## 1.2. 使い方
+
+1. `keybindings.json` と `settings.json` を VSCode のユーザー設定ディレクトリにコピーしてください。
+2. `markdown-preview-enhanced/style.less` を拡張機能の設定で参照することで、Markdownプレビューの表示をカスタマイズできます。
+
+## 1.3. 拡張機能例
+
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown Table Prettify](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
+
+## 1.4. ライセンス
+
+このリポジトリの内容は MIT ライセンスのもとで公開されています。
+
+---
+
+ご質問や提案があれば Issue からご連絡ください。
