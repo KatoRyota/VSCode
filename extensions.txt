@@ -1,0 +1,17 @@
+github.copilot
+github.copilot-chat
+huizhou.githd
+janisdd.vscode-edit-csv
+k--kato.intellij-idea-keybindings
+kaiwood.center-editor-window
+maptz.regionfolder
+ms-ceintl.vscode-language-pack-ja
+oracle.mysql-shell-for-vs-code
+oracle.sql-developer
+phil294.git-log--graph
+ryu1kn.partial-diff
+shd101wyy.markdown-preview-enhanced
+takumii.markdowntable
+usernamehw.commands
+yutakahashi114.copy-with-file-path
+yzhang.markdown-all-in-one
