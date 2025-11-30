@@ -26,6 +26,7 @@
     "githd.logView.expressMode": true,
     "githd.blameView.enabled": false,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
+    "markdowntable.showMenu.csvToTable": true,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "github.copilot.nextEditSuggestions.enabled": true,
