@@ -97,32 +97,8 @@
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "レベル 1 で折りたたむ": {
-                    "command": "editor.foldLevel1",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
-                "レベル 2 で折りたたむ": {
-                    "command": "editor.foldLevel2",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
-                "レベル 3 で折りたたむ": {
-                    "command": "editor.foldLevel3",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
-                "レベル 4 で折りたたむ": {
-                    "command": "editor.foldLevel4",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
-                "レベル 5 で折りたたむ": {
-                    "command": "editor.foldLevel5",
+                "すべて折りたたみ": {
+                    "command": "editor.foldAll",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
