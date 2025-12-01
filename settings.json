@@ -163,6 +163,26 @@
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed"
                 },
+                "[場所の編集] で前に戻る": {
+                    "command": "workbench.action.navigateBackInEditLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiRed"
+                },
+                "[場所の編集] で次に進む": {
+                    "command": "workbench.action.navigateForwardInEditLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiRed"
+                },
+                "[ナビゲーションの場所] で前に戻る": {
+                    "command": "workbench.action.navigateBackInNavigationLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiRed"
+                },
+                "[ナビゲーションの場所] で次に進む": {
+                    "command": "workbench.action.navigateForwardInNavigationLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiRed"
+                },
                 "ブラケットへ移動 【Ctrl+F14】": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "go-to-file",
