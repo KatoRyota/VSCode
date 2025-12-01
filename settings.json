@@ -96,7 +96,11 @@
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
-                },
+                }
+            }
+        },
+        "表示.折りたたみ": {
+            "nestedItems": {
                 "選択した項目を除くすべて折りたたみ": {
                     "command": "editor.foldAllExcept",
                     "icon": "window",
@@ -113,18 +117,6 @@
         },
         "ファイル": {
             "nestedItems": {
-                "選択範囲から折りたたみ範囲を作成する 【F20】": {
-                    "command": "editor.createFoldingRangeFromSelection",
-                    "icon": "file-code",
-                    "iconColor": "terminal.ansiGreen",
-                    "disableTooltip": true
-                },
-                "手動折りたたみ範囲を削除する 【F21】": {
-                    "command": "editor.removeManualFoldingRanges",
-                    "icon": "file-code",
-                    "iconColor": "terminal.ansiGreen",
-                    "disableTooltip": true
-                },
                 "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え 【F22】": {
                     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
                     "icon": "file-code",
@@ -139,6 +131,22 @@
                 },
                 "GitHD: View Branch Diff": {
                     "command": "githd.diffBranch",
+                    "icon": "file-code",
+                    "iconColor": "terminal.ansiGreen",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "ファイル.折りたたみ": {
+            "nestedItems": {
+                "選択範囲から折りたたみ範囲を作成する 【F20】": {
+                    "command": "editor.createFoldingRangeFromSelection",
+                    "icon": "file-code",
+                    "iconColor": "terminal.ansiGreen",
+                    "disableTooltip": true
+                },
+                "手動折りたたみ範囲を削除する 【F21】": {
+                    "command": "editor.removeManualFoldingRanges",
                     "icon": "file-code",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
@@ -274,7 +282,11 @@
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
-                },
+                }
+            }
+        },
+        "編集.折りたたみ": {
+            "nestedItems": {
                 "Region folding: Wrap selection with #region tag.": {
                     "command": "regionfolder.wrapWithRegion",
                     "icon": "edit",
@@ -286,7 +298,11 @@
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
-                },
+                }
+            }
+        },
+        "編集.Markdown": {
+            "nestedItems": {
                 "Markdown All in One: Create Table of Contents": {
                     "command": "markdown.extension.toc.create",
                     "icon": "edit",
