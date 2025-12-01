@@ -58,13 +58,13 @@
                 "表示: [右端での折り返し] の設定/解除 【F18】": {
                     "command": "editor.action.toggleWordWrap",
                     "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "表示: エディターの分割 【F19】": {
                     "command": "workbench.action.splitEditor",
                     "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 }
             }
@@ -108,13 +108,13 @@
                 "選択した項目を除くすべて折りたたみ": {
                     "command": "editor.foldAllExcept",
                     "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
+                    "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "選択した項目を除くすべて展開": {
                     "command": "editor.unfoldAllExcept",
                     "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
+                    "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
             }
@@ -124,19 +124,19 @@
                 "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え 【F22】": {
                     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
                     "icon": "file-code",
-                    "iconColor": "terminal.ansiGreen",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown: ロックされたプレビューを横に表示": {
                     "command": "markdown.showLockedPreviewToSide",
                     "icon": "file-code",
-                    "iconColor": "terminal.ansiGreen",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "GitHD: View Branch Diff": {
                     "command": "githd.diffBranch",
                     "icon": "file-code",
-                    "iconColor": "terminal.ansiGreen",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 }
             }
@@ -270,13 +270,13 @@
                 "ドキュメントのフォーマット 【Shift+F20】": {
                     "command": "editor.action.formatDocument",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
                 "選択範囲のフォーマット 【Shift+F21】": {
                     "command": "editor.action.formatSelection",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 }
             }
@@ -286,13 +286,13 @@
                 "行コメントの切り替え 【Shift+F18】": {
                     "command": "editor.action.commentLine",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
                 "ブロック コメントの切り替え 【Shift+F19】": {
                     "command": "editor.action.blockComment",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 }
             }
@@ -302,13 +302,13 @@
                 "Region folding: Wrap selection with #region tag.": {
                     "command": "regionfolder.wrapWithRegion",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 },
                 "Region folding: Delete current #region tags": {
                     "command": "regionfolder.removeCurrentRegionTags",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 }
             }
@@ -318,31 +318,31 @@
                 "Markdown All in One: Create Table of Contents": {
                     "command": "markdown.extension.toc.create",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Add/Update section numbers": {
                     "command": "markdown.extension.toc.addSecNumbers",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Remove section numbers": {
                     "command": "markdown.extension.toc.removeSecNumbers",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Toggle list": {
                     "command": "markdown.extension.editing.toggleList",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Toggle code block": {
                     "command": "markdown.extension.editing.toggleCodeBlock",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 }
             }
@@ -352,7 +352,7 @@
                 "ターミナル: アクティブなターミナルで選択したテキストを実行 【Shift+F22】": {
                     "command": "workbench.action.terminal.runSelectedText",
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）": {
@@ -366,7 +366,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）": {
@@ -380,7 +380,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "grep-find: 特定ディレクトリ配下の検索": {
@@ -394,7 +394,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "diff: ディレクトリ間の差分比較（Windows）": {
@@ -408,7 +408,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "cygpath: WindowsのパスをUnix形式に変換": {
@@ -422,7 +422,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 }
             }
@@ -440,7 +440,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "scp: 踏み台→ローカル": {
@@ -454,7 +454,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightMagenta",
+                    "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 }
             }
@@ -472,7 +472,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightGreen",
+                    "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "ssh: リモートサーバー-01": {
@@ -486,7 +486,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightGreen",
+                    "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "ssh: リモートサーバー-02": {
@@ -500,7 +500,7 @@
                         }
                     ],
                     "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightGreen",
+                    "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
             }
