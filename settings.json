@@ -53,7 +53,23 @@
         }
     },
     "commands.commands": {
-        "表示": {
+        "表示.全般": {
+            "nestedItems": {
+                "表示: [右端での折り返し] の設定/解除 【F18】": {
+                    "command": "editor.action.toggleWordWrap",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "表示: エディターの分割 【F19】": {
+                    "command": "workbench.action.splitEditor",
+                    "icon": "window",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "表示.レイアウト": {
             "nestedItems": {
                 "表示: エディター グループのサイズをリセット 【F13】": {
                     "command": "workbench.action.evenEditorWidths",
@@ -84,18 +100,6 @@
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
-                },
-                "表示: [右端での折り返し] の設定/解除 【F18】": {
-                    "command": "editor.action.toggleWordWrap",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
-                "表示: エディターの分割 【F19】": {
-                    "command": "workbench.action.splitEditor",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
                 }
             }
         },
@@ -115,7 +119,7 @@
                 }
             }
         },
-        "ファイル": {
+        "ファイル.全般": {
             "nestedItems": {
                 "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え 【F22】": {
                     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
@@ -153,7 +157,7 @@
                 }
             }
         },
-        "移動": {
+        "移動.全般": {
             "nestedItems": {
                 "最後の編集位置へ移動 【Ctrl+F13】": {
                     "command": "workbench.action.navigateToLastEditLocation",
@@ -205,7 +209,7 @@
                 }
             }
         },
-        "選択": {
+        "選択.全般": {
             "nestedItems": {
                 "選択範囲を拡張 【Ctrl+F17】": {
                     "command": "editor.action.smartSelect.expand",
@@ -227,7 +231,7 @@
                 }
             }
         },
-        "編集": {
+        "編集.全般": {
             "nestedItems": {
                 "置換 【Shift+F13】": {
                     "command": "editor.action.startFindReplaceAction",
@@ -335,7 +339,7 @@
                 }
             }
         },
-        "ターミナル": {
+        "ターミナル.全般": {
             "nestedItems": {
                 "ターミナル: アクティブなターミナルで選択したテキストを実行 【Shift+F22】": {
                     "command": "workbench.action.terminal.runSelectedText",
