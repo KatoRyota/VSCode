@@ -97,12 +97,6 @@
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "すべて折りたたみ": {
-                    "command": "editor.foldAll",
-                    "icon": "window",
-                    "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
-                },
                 "選択した項目を除くすべて折りたたみ": {
                     "command": "editor.foldAllExcept",
                     "icon": "window",
