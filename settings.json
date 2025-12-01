@@ -300,56 +300,6 @@
                     "command": "markdown.extension.editing.toggleCodeBlock",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Format all tables.": {
-                    "command": "markdowntable.format",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Insert column to the left.": {
-                    "command": "markdowntable.insertLeft",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Insert column to the right.": {
-                    "command": "markdowntable.insertRight",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Move to Left.": {
-                    "command": "markdowntable.moveLeft",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Move to Right.": {
-                    "command": "markdowntable.moveRight",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Align to Center.": {
-                    "command": "markdowntable.alignCenter",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Align to Left.": {
-                    "command": "markdowntable.alignLeft",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Align to Right.": {
-                    "command": "markdowntable.alignRight",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Convert CSV to table.": {
-                    "command": "markdowntable.csvToTable",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
-                },
-                "Markdown Table: Convert TSV to table.": {
-                    "command": "markdowntable.tsvToTable",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow"
                 }
             }
         },
