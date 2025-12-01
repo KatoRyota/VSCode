@@ -262,19 +262,11 @@
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
-                },
-                "行コメントの切り替え 【Shift+F18】": {
-                    "command": "editor.action.commentLine",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
-                    "disableTooltip": true
-                },
-                "ブロック コメントの切り替え 【Shift+F19】": {
-                    "command": "editor.action.blockComment",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
-                    "disableTooltip": true
-                },
+                }
+            }
+        },
+        "編集.フォーマット": {
+            "nestedItems": {
                 "ドキュメントのフォーマット 【Shift+F20】": {
                     "command": "editor.action.formatDocument",
                     "icon": "edit",
@@ -283,6 +275,22 @@
                 },
                 "選択範囲のフォーマット 【Shift+F21】": {
                     "command": "editor.action.formatSelection",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.コメント": {
+            "nestedItems": {
+                "行コメントの切り替え 【Shift+F18】": {
+                    "command": "editor.action.commentLine",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow",
+                    "disableTooltip": true
+                },
+                "ブロック コメントの切り替え 【Shift+F19】": {
+                    "command": "editor.action.blockComment",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
@@ -416,7 +424,11 @@
                     "icon": "terminal",
                     "iconColor": "terminal.ansiBrightMagenta",
                     "disableTooltip": true
-                },
+                }
+            }
+        },
+        "ターミナル.scp": {
+            "nestedItems": {
                 "scp: リモート→踏み台": {
                     "sequence": [
                         "workbench.action.terminal.focus",
