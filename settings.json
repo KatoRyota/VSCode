@@ -164,19 +164,19 @@
         },
         "移動.全般": {
             "nestedItems": {
-                "ブラケットへ移動 【Ctrl+F14】": {
+                "ブラケットへ移動 【Ctrl+F13】": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "行/列に移動... 【Ctrl+F15】": {
+                "行/列に移動... 【Ctrl+F14】": {
                     "command": "workbench.action.gotoLine",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "Center Editor Window 【Ctrl+F16】": {
+                "Center Editor Window 【Ctrl+F15】": {
                     "command": "center-editor-window.center",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed",
@@ -186,7 +186,7 @@
         },
         "移動.履歴": {
             "nestedItems": {
-                "最後の編集位置へ移動 【Ctrl+F13】": {
+                "最後の編集位置へ移動 【Ctrl+F16】": {
                     "command": "workbench.action.navigateToLastEditLocation",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiBlue",

@@ -29,21 +29,21 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+f14",
+        "key": "ctrl+f13",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+f15",
+        "key": "ctrl+f14",
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+f16",
+        "key": "ctrl+f15",
         "command": "center-editor-window.center",
         "when": "editorTextFocus || findWidgetVisible"
     },
     {
-        "key": "ctrl+f13",
+        "key": "ctrl+f16",
         "command": "workbench.action.navigateToLastEditLocation"
     },
     {
