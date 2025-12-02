@@ -159,36 +159,6 @@
         },
         "移動.全般": {
             "nestedItems": {
-                "最後の編集位置へ移動 【Ctrl+F13】": {
-                    "command": "workbench.action.navigateToLastEditLocation",
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
-                },
-                "[場所の編集] で前に戻る": {
-                    "command": "workbench.action.navigateBackInEditLocations",
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
-                },
-                "[場所の編集] で次に進む": {
-                    "command": "workbench.action.navigateForwardInEditLocations",
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
-                },
-                "[ナビゲーションの場所] で前に戻る": {
-                    "command": "workbench.action.navigateBackInNavigationLocations",
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
-                },
-                "[ナビゲーションの場所] で次に進む": {
-                    "command": "workbench.action.navigateForwardInNavigationLocations",
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
-                },
                 "ブラケットへ移動 【Ctrl+F14】": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "go-to-file",
@@ -205,6 +175,40 @@
                     "command": "center-editor-window.center",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiRed",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "移動.履歴": {
+            "nestedItems": {
+                "最後の編集位置へ移動 【Ctrl+F13】": {
+                    "command": "workbench.action.navigateToLastEditLocation",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "[場所の編集] で前に戻る": {
+                    "command": "workbench.action.navigateBackInEditLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "[場所の編集] で次に進む": {
+                    "command": "workbench.action.navigateForwardInEditLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "[ナビゲーションの場所] で前に戻る": {
+                    "command": "workbench.action.navigateBackInNavigationLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "[ナビゲーションの場所] で次に進む": {
+                    "command": "workbench.action.navigateForwardInNavigationLocations",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 }
             }
@@ -245,22 +249,26 @@
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
+                "行をつなげる 【Shift+F17】": {
+                    "command": "editor.action.joinLines",
+                    "icon": "edit",
+                    "iconColor": "terminal.ansiYellow",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.変換": {
+            "nestedItems": {
                 "小文字に変換 【Shift+F15】": {
                     "command": "editor.action.transformToLowercase",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "大文字に変換 【Shift+F16】": {
                     "command": "editor.action.transformToUppercase",
                     "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
-                    "disableTooltip": true
-                },
-                "行をつなげる 【Shift+F17】": {
-                    "command": "editor.action.joinLines",
-                    "icon": "edit",
-                    "iconColor": "terminal.ansiYellow",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 }
             }
@@ -355,48 +363,6 @@
                     "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
-                "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）": {
-                    "sequence": [
-                        "workbench.action.terminal.focus",
-                        {
-                            "command": "workbench.action.terminal.sendSequence",
-                            "args": {
-                                "text": "find $DIR -type f -exec ls -1FA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
-                            }
-                        }
-                    ],
-                    "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightYellow",
-                    "disableTooltip": true
-                },
-                "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）": {
-                    "sequence": [
-                        "workbench.action.terminal.focus",
-                        {
-                            "command": "workbench.action.terminal.sendSequence",
-                            "args": {
-                                "text": "find $DIR -type f -exec ls -lFA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
-                            }
-                        }
-                    ],
-                    "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightYellow",
-                    "disableTooltip": true
-                },
-                "grep-find: 特定ディレクトリ配下の検索": {
-                    "sequence": [
-                        "workbench.action.terminal.focus",
-                        {
-                            "command": "workbench.action.terminal.sendSequence",
-                            "args": {
-                                "text": "find $DIR \\( -path '.git' $EXCLUDE_PATTERN \\) -prune -o -type f -exec grep -anHPi $SEARCH_PATTERN {} +"
-                            }
-                        }
-                    ],
-                    "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightYellow",
-                    "disableTooltip": true
-                },
                 "diff: ディレクトリ間の差分比較（Windows）": {
                     "sequence": [
                         "workbench.action.terminal.focus",
@@ -423,6 +389,52 @@
                     ],
                     "icon": "terminal",
                     "iconColor": "terminal.ansiBrightYellow",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "ターミナル.検索": {
+            "nestedItems": {
+                "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "find $DIR -type f -exec ls -1FA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "terminal.ansiBrightCyan",
+                    "disableTooltip": true
+                },
+                "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "find $DIR -type f -exec ls -lFA --block-size=M --time-style='+%Y-%m-%dT%H:%M:%S' {} +"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "terminal.ansiBrightCyan",
+                    "disableTooltip": true
+                },
+                "grep-find: 特定ディレクトリ配下の検索": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "find $DIR \\( -path '.git' $EXCLUDE_PATTERN \\) -prune -o -type f -exec grep -anHPi $SEARCH_PATTERN {} +"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 }
             }
