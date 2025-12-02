@@ -2,50 +2,31 @@
 [
     {
         "key": "f13",
-        "command": "workbench.action.evenEditorWidths"
-    },
-    {
-        "key": "f14",
-        "command": "workbench.action.toggleMaximizeEditorGroup",
-        "when": "editorPartMaximizedEditorGroup || editorPartMultipleEditorGroups"
-    },
-    {
-        "key": "f15",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "f16",
-        "command": "workbench.action.toggleAuxiliaryBar"
-    },
-    {
-        "key": "f17",
-        "command": "workbench.action.togglePanel"
-    },
-    {
-        "key": "f18",
         "command": "editor.action.toggleWordWrap"
     },
     {
-        "key": "f19",
-        "command": "workbench.action.splitEditor"
+        "key": "f14",
+        "command": "workbench.action.evenEditorWidths"
     },
     {
-        "key": "f20",
+        "key": "f17",
+        "command": "editor.foldAllExcept",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f18",
+        "command": "editor.unfoldAllExcept",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "f19",
         "command": "editor.createFoldingRangeFromSelection",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "f21",
+        "key": "f20",
         "command": "editor.removeManualFoldingRanges",
         "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "f22",
-        "command": "workbench.action.files.toggleActiveEditorReadonlyInSession"
-    },
-    {
-        "key": "ctrl+f13",
-        "command": "workbench.action.navigateToLastEditLocation"
     },
     {
         "key": "ctrl+f14",
@@ -60,6 +41,10 @@
         "key": "ctrl+f16",
         "command": "center-editor-window.center",
         "when": "editorTextFocus || findWidgetVisible"
+    },
+    {
+        "key": "ctrl+f13",
+        "command": "workbench.action.navigateToLastEditLocation"
     },
     {
         "key": "ctrl+f17",
@@ -86,40 +71,35 @@
         "when": "editorHasSelection && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f15",
+        "key": "shift+f17",
         "command": "editor.action.transformToLowercase"
     },
     {
-        "key": "shift+f16",
+        "key": "shift+f18",
         "command": "editor.action.transformToUppercase"
     },
     {
-        "key": "shift+f17",
-        "command": "editor.action.joinLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+f18",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+f19",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+f20",
+        "key": "shift+f21",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     },
     {
-        "key": "shift+f21",
+        "key": "shift+f22",
         "command": "editor.action.formatSelection",
         "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f22",
+        "key": "shift+f23",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f24",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+f19",
         "command": "workbench.action.terminal.runSelectedText"
     },
     {
