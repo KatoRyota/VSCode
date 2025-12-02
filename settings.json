@@ -65,7 +65,8 @@
                     "command": "workbench.action.splitEditor",
                     "icon": "window",
                     "iconColor": "terminal.ansiBrightYellow",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 }
             }
         },
@@ -81,25 +82,29 @@
                     "command": "workbench.action.toggleMaximizeEditorGroup",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 },
                 "表示: プライマリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleSidebarVisibility",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 },
                 "表示: セカンダリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleAuxiliaryBar",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 },
                 "表示: パネルの表示/非表示の切り替え": {
                     "command": "workbench.action.togglePanel",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 }
             }
         },
