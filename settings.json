@@ -55,13 +55,13 @@
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
-                "表示: [右端での折り返し] の設定/解除 【F18】": {
+                "表示: [右端での折り返し] の設定/解除 【F13】": {
                     "command": "editor.action.toggleWordWrap",
                     "icon": "window",
                     "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
-                "表示: エディターの分割 【F19】": {
+                "表示: エディターの分割": {
                     "command": "workbench.action.splitEditor",
                     "icon": "window",
                     "iconColor": "terminal.ansiBrightYellow",
@@ -71,31 +71,31 @@
         },
         "表示.レイアウト": {
             "nestedItems": {
-                "表示: エディター グループのサイズをリセット 【F13】": {
+                "表示: エディター グループのサイズをリセット 【F14】": {
                     "command": "workbench.action.evenEditorWidths",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "表示: エディター グループの最大化の切り替え 【F14】": {
+                "表示: エディター グループの最大化の切り替え": {
                     "command": "workbench.action.toggleMaximizeEditorGroup",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "表示: プライマリ サイド バーの表示/非表示を切り替える 【F15】": {
+                "表示: プライマリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleSidebarVisibility",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "表示: セカンダリ サイド バーの表示/非表示を切り替える 【F16】": {
+                "表示: セカンダリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleAuxiliaryBar",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "表示: パネルの表示/非表示の切り替え 【F17】": {
+                "表示: パネルの表示/非表示の切り替え": {
                     "command": "workbench.action.togglePanel",
                     "icon": "window",
                     "iconColor": "terminal.ansiBlue",
@@ -105,13 +105,13 @@
         },
         "表示.折りたたみ": {
             "nestedItems": {
-                "選択した項目を除くすべて折りたたみ": {
+                "選択した項目を除くすべて折りたたみ 【F17】": {
                     "command": "editor.foldAllExcept",
                     "icon": "window",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択した項目を除くすべて展開": {
+                "選択した項目を除くすべて展開 【F18】": {
                     "command": "editor.unfoldAllExcept",
                     "icon": "window",
                     "iconColor": "terminal.ansiMagenta",
@@ -121,7 +121,7 @@
         },
         "ファイル.全般": {
             "nestedItems": {
-                "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え 【F22】": {
+                "ファイル: セッションでのアクティブ エディターの読み取り専用の切り替え": {
                     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession",
                     "icon": "file-code",
                     "iconColor": "terminal.ansiBrightRed",
@@ -143,13 +143,13 @@
         },
         "ファイル.折りたたみ": {
             "nestedItems": {
-                "選択範囲から折りたたみ範囲を作成する 【F20】": {
+                "選択範囲から折りたたみ範囲を作成する 【F19】": {
                     "command": "editor.createFoldingRangeFromSelection",
                     "icon": "file-code",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 },
-                "手動折りたたみ範囲を削除する 【F21】": {
+                "手動折りたたみ範囲を削除する 【F20】": {
                     "command": "editor.removeManualFoldingRanges",
                     "icon": "file-code",
                     "iconColor": "terminal.ansiGreen",
@@ -249,7 +249,7 @@
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
-                "行をつなげる 【Shift+F17】": {
+                "行をつなげる 【Shift+F15】": {
                     "command": "editor.action.joinLines",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
@@ -259,13 +259,13 @@
         },
         "編集.変換": {
             "nestedItems": {
-                "小文字に変換 【Shift+F15】": {
+                "小文字に変換 【Shift+F17】": {
                     "command": "editor.action.transformToLowercase",
                     "icon": "edit",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
-                "大文字に変換 【Shift+F16】": {
+                "大文字に変換 【Shift+F18】": {
                     "command": "editor.action.transformToUppercase",
                     "icon": "edit",
                     "iconColor": "terminal.ansiBrightRed",
@@ -275,13 +275,13 @@
         },
         "編集.フォーマット": {
             "nestedItems": {
-                "ドキュメントのフォーマット 【Shift+F20】": {
+                "ドキュメントのフォーマット 【Shift+F21】": {
                     "command": "editor.action.formatDocument",
                     "icon": "edit",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "選択範囲のフォーマット 【Shift+F21】": {
+                "選択範囲のフォーマット 【Shift+F22】": {
                     "command": "editor.action.formatSelection",
                     "icon": "edit",
                     "iconColor": "terminal.ansiBrightCyan",
@@ -291,13 +291,13 @@
         },
         "編集.コメント": {
             "nestedItems": {
-                "行コメントの切り替え 【Shift+F18】": {
+                "行コメントの切り替え 【Shift+F23】": {
                     "command": "editor.action.commentLine",
                     "icon": "edit",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "ブロック コメントの切り替え 【Shift+F19】": {
+                "ブロック コメントの切り替え 【Shift+F24】": {
                     "command": "editor.action.blockComment",
                     "icon": "edit",
                     "iconColor": "terminal.ansiRed",
@@ -357,7 +357,7 @@
         },
         "ターミナル.全般": {
             "nestedItems": {
-                "ターミナル: アクティブなターミナルで選択したテキストを実行 【Shift+F22】": {
+                "ターミナル: アクティブなターミナルで選択したテキストを実行 【Shift+F19】": {
                     "command": "workbench.action.terminal.runSelectedText",
                     "icon": "terminal",
                     "iconColor": "terminal.ansiBrightYellow",
