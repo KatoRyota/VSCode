@@ -249,7 +249,7 @@
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
-                "行をつなげる 【Shift+F15】": {
+                "行をつなげる": {
                     "command": "editor.action.joinLines",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
