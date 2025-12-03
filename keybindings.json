@@ -67,8 +67,8 @@
     },
     {
         "key": "shift+f14",
-        "command": "editor.action.duplicateSelection",
-        "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "shift+f17",

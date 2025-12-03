@@ -248,8 +248,8 @@
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
-                "選択範囲の複製 【Shift+F14】": {
-                    "command": "editor.action.duplicateSelection",
+                "行を下へコピー 【Shift+F14】": {
+                    "command": "editor.action.copyLinesDownAction",
                     "icon": "edit",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
