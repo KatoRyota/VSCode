@@ -146,25 +146,25 @@
             "nestedItems": {
                 "選択した項目を除くすべて折りたたみ 【F17】": {
                     "command": "editor.foldAllExcept",
-                    "icon": "window",
+                    "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "選択した項目を除くすべて展開 【F18】": {
                     "command": "editor.unfoldAllExcept",
-                    "icon": "window",
+                    "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "選択範囲から折りたたみ範囲を作成する 【F19】": {
                     "command": "editor.createFoldingRangeFromSelection",
-                    "icon": "file-code",
+                    "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "手動折りたたみ範囲を削除する 【F20】": {
                     "command": "editor.removeManualFoldingRanges",
-                    "icon": "file-code",
+                    "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
