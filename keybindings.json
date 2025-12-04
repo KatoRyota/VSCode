@@ -9,6 +9,10 @@
         "command": "workbench.action.evenEditorWidths"
     },
     {
+        "key": "f15",
+        "command": "行の位置: トップ 【F15】"
+    },
+    {
         "key": "f17",
         "command": "editor.foldAllExcept",
         "when": "editorTextFocus && foldingEnabled"
@@ -30,20 +34,6 @@
     },
     {
         "key": "ctrl+f13",
-        "command": "editor.action.jumpToBracket",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+f14",
-        "command": "workbench.action.gotoLine"
-    },
-    {
-        "key": "ctrl+f15",
-        "command": "center-editor-window.center",
-        "when": "editorTextFocus || findWidgetVisible"
-    },
-    {
-        "key": "ctrl+f16",
         "command": "workbench.action.navigateToLastEditLocation"
     },
     {
@@ -99,7 +89,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+f19",
+        "key": "alt+f13",
         "command": "workbench.action.terminal.runSelectedText"
     },
     {
