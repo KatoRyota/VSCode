@@ -57,13 +57,13 @@
             "nestedItems": {
                 "表示: [右端での折り返し] の設定/解除 【F13】": {
                     "command": "editor.action.toggleWordWrap",
-                    "icon": "window",
+                    "icon": "gear",
                     "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
                 },
                 "表示: エディターの分割": {
                     "command": "workbench.action.splitEditor",
-                    "icon": "window",
+                    "icon": "gear",
                     "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true,
                     "hidden": true
@@ -74,34 +74,34 @@
             "nestedItems": {
                 "表示: エディター グループのサイズをリセット 【F14】": {
                     "command": "workbench.action.evenEditorWidths",
-                    "icon": "window",
+                    "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "表示: エディター グループの最大化の切り替え": {
                     "command": "workbench.action.toggleMaximizeEditorGroup",
-                    "icon": "window",
+                    "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true,
                     "hidden": true
                 },
                 "表示: プライマリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleSidebarVisibility",
-                    "icon": "window",
+                    "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true,
                     "hidden": true
                 },
                 "表示: セカンダリ サイド バーの表示/非表示を切り替える": {
                     "command": "workbench.action.toggleAuxiliaryBar",
-                    "icon": "window",
+                    "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true,
                     "hidden": true
                 },
                 "表示: パネルの表示/非表示の切り替え": {
                     "command": "workbench.action.togglePanel",
-                    "icon": "window",
+                    "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true,
                     "hidden": true
@@ -146,25 +146,25 @@
             "nestedItems": {
                 "選択した項目を除くすべて折りたたみ 【F17】": {
                     "command": "editor.foldAllExcept",
-                    "icon": "selection",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "選択した項目を除くすべて展開 【F18】": {
                     "command": "editor.unfoldAllExcept",
-                    "icon": "selection",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "選択範囲から折りたたみ範囲を作成する 【F19】": {
                     "command": "editor.createFoldingRangeFromSelection",
-                    "icon": "selection",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "手動折りたたみ範囲を削除する 【F20】": {
                     "command": "editor.removeManualFoldingRanges",
-                    "icon": "selection",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
@@ -182,12 +182,17 @@
                     "command": "markdown.showLockedPreviewToSide",
                     "icon": "file-code",
                     "iconColor": "terminal.ansiYellow",
-                    "disableTooltip": true
-                },
+                    "disableTooltip": true,
+                    "hidden": true
+                }
+            }
+        },
+        "ファイル.履歴": {
+            "nestedItems": {
                 "GitHD: View Branch Diff": {
                     "command": "githd.diffBranch",
-                    "icon": "file-code",
-                    "iconColor": "terminal.ansiYellow",
+                    "icon": "history",
+                    "iconColor": "terminal.ansiBrightGreen",
                     "disableTooltip": true
                 }
             }
@@ -196,15 +201,16 @@
             "nestedItems": {
                 "ブラケットへ移動": {
                     "command": "editor.action.jumpToBracket",
-                    "icon": "go-to-file",
+                    "icon": "target",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
                 "行/列に移動...": {
                     "command": "workbench.action.gotoLine",
-                    "icon": "go-to-file",
+                    "icon": "target",
                     "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true
+                    "disableTooltip": true,
+                    "hidden": true
                 }
             }
         },
@@ -212,31 +218,31 @@
             "nestedItems": {
                 "最後の編集位置へ移動 【Ctrl+F13】": {
                     "command": "workbench.action.navigateToLastEditLocation",
-                    "icon": "go-to-file",
+                    "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "[場所の編集] で前に戻る": {
                     "command": "workbench.action.navigateBackInEditLocations",
-                    "icon": "go-to-file",
+                    "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "[場所の編集] で次に進む": {
                     "command": "workbench.action.navigateForwardInEditLocations",
-                    "icon": "go-to-file",
+                    "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "[ナビゲーションの場所] で前に戻る": {
                     "command": "workbench.action.navigateBackInNavigationLocations",
-                    "icon": "go-to-file",
+                    "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
                 "[ナビゲーションの場所] で次に進む": {
                     "command": "workbench.action.navigateForwardInNavigationLocations",
-                    "icon": "go-to-file",
+                    "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 }
@@ -268,19 +274,19 @@
             "nestedItems": {
                 "置換 【Shift+F13】": {
                     "command": "editor.action.startFindReplaceAction",
-                    "icon": "edit",
+                    "icon": "output",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
                 "行を下へコピー 【Shift+F14】": {
                     "command": "editor.action.copyLinesDownAction",
-                    "icon": "edit",
+                    "icon": "output",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
                 "行をつなげる": {
                     "command": "editor.action.joinLines",
-                    "icon": "edit",
+                    "icon": "output",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 }
@@ -290,13 +296,13 @@
             "nestedItems": {
                 "小文字に変換 【Shift+F17】": {
                     "command": "editor.action.transformToLowercase",
-                    "icon": "edit",
+                    "icon": "replace",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "大文字に変換 【Shift+F18】": {
                     "command": "editor.action.transformToUppercase",
-                    "icon": "edit",
+                    "icon": "replace",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 }
@@ -306,13 +312,13 @@
             "nestedItems": {
                 "ドキュメントのフォーマット 【Shift+F21】": {
                     "command": "editor.action.formatDocument",
-                    "icon": "edit",
+                    "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
                 "選択範囲のフォーマット 【Shift+F22】": {
                     "command": "editor.action.formatSelection",
-                    "icon": "edit",
+                    "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 }
@@ -322,13 +328,13 @@
             "nestedItems": {
                 "行コメントの切り替え 【Shift+F23】": {
                     "command": "editor.action.commentLine",
-                    "icon": "edit",
+                    "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
                 "ブロック コメントの切り替え 【Shift+F24】": {
                     "command": "editor.action.blockComment",
-                    "icon": "edit",
+                    "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
@@ -338,13 +344,13 @@
             "nestedItems": {
                 "Region folding: Wrap selection with #region tag.": {
                     "command": "regionfolder.wrapWithRegion",
-                    "icon": "edit",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 },
                 "Region folding: Delete current #region tags": {
                     "command": "regionfolder.removeCurrentRegionTags",
-                    "icon": "edit",
+                    "icon": "symbol-class",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 }
@@ -354,31 +360,31 @@
             "nestedItems": {
                 "Markdown All in One: Create Table of Contents": {
                     "command": "markdown.extension.toc.create",
-                    "icon": "edit",
+                    "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Add/Update section numbers": {
                     "command": "markdown.extension.toc.addSecNumbers",
-                    "icon": "edit",
+                    "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Remove section numbers": {
                     "command": "markdown.extension.toc.removeSecNumbers",
-                    "icon": "edit",
+                    "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Toggle list": {
                     "command": "markdown.extension.editing.toggleList",
-                    "icon": "edit",
+                    "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
                 "Markdown All in One: Toggle code block": {
                     "command": "markdown.extension.editing.toggleCodeBlock",
-                    "icon": "edit",
+                    "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 }
