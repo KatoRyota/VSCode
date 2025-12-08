@@ -430,7 +430,7 @@
         },
         "ターミナル.検索": {
             "nestedItems": {
-                "ls-find: 特定ディレクトリ配下の一覧表示（ショート版）": {
+                "ls: ファイルの一覧表示（ショート版）": {
                     "sequence": [
                         "workbench.action.terminal.focus",
                         {
@@ -444,7 +444,7 @@
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "ls-find: 特定ディレクトリ配下の一覧表示（ロング版）": {
+                "ls: ファイルの一覧表示（ロング版）": {
                     "sequence": [
                         "workbench.action.terminal.focus",
                         {
@@ -458,13 +458,27 @@
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "grep-find: 特定ディレクトリ配下の検索": {
+                "grep: 文字列の一括検索": {
                     "sequence": [
                         "workbench.action.terminal.focus",
                         {
                             "command": "workbench.action.terminal.sendSequence",
                             "args": {
                                 "text": "find $DIR \\( -path '.git' $EXCLUDE_PATTERN \\) -prune -o -type f -exec grep -anHPi $SEARCH_PATTERN {} +"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "terminal.ansiBrightCyan",
+                    "disableTooltip": true
+                },
+                "grep: 文字列を抽出し重複削除": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "grep -ap '$SEARCH_PATTERN' $SEARCH_PATH | sed 's/^\\s\\+//;s/\\s\\+$//' | sort -u"
                             }
                         }
                     ],
