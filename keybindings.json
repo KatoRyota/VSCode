@@ -13,6 +13,10 @@
         "command": "行の位置: トップ 【F15】"
     },
     {
+        "key": "f16",
+        "command": "行の位置: センター 【F16】"
+    },
+    {
         "key": "f17",
         "command": "editor.foldAllExcept",
         "when": "editorTextFocus && foldingEnabled"

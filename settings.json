@@ -23,10 +23,14 @@
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
     "git-log--graph.details-panel-position": "bottom",
+    "git-log--graph.hide-quick-branch-tips": true,
     "githd.logView.expressMode": true,
-    "githd.blameView.enabled": false,
+    "githd.blameView.enabled": "disabled",
+    "githd.editor.disabled": true,
+    "githd.logView.displayExpressStatus": false,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "markdowntable.showMenu.csvToTable": true,
+    "redhat.telemetry.enabled": false,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -120,21 +124,11 @@
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "行の位置: センター": {
+                "行の位置: センター 【F16】": {
                     "command": "revealLine",
                     "args": {
                         "lineNumber": "${lineNumber}",
                         "at": "center"
-                    },
-                    "icon": "go-to-file",
-                    "iconColor": "terminal.ansiBrightCyan",
-                    "disableTooltip": true
-                },
-                "行の位置: ボトム": {
-                    "command": "revealLine",
-                    "args": {
-                        "lineNumber": "${lineNumber}",
-                        "at": "bottom"
                     },
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiBrightCyan",
@@ -199,13 +193,13 @@
         },
         "移動.全般": {
             "nestedItems": {
-                "ブラケットへ移動": {
+                "ブラケットへ移動 【Ctrl+Shift+M】": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "target",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "行/列に移動...": {
+                "行/列に移動... 【Ctrl+G】": {
                     "command": "workbench.action.gotoLine",
                     "icon": "target",
                     "iconColor": "terminal.ansiRed",
@@ -216,7 +210,7 @@
         },
         "移動.履歴": {
             "nestedItems": {
-                "最後の編集位置へ移動 【Ctrl+F13】": {
+                "最後の編集位置へ移動 【Ctrl+F13】【Ctrl+Shift+Backspace】": {
                     "command": "workbench.action.navigateToLastEditLocation",
                     "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
@@ -272,22 +266,42 @@
         },
         "編集.全般": {
             "nestedItems": {
-                "置換 【Shift+F13】": {
+                "置換 【Shift+F13】【Ctrl+R】": {
                     "command": "editor.action.startFindReplaceAction",
                     "icon": "output",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
-                "行を下へコピー 【Shift+F14】": {
-                    "command": "editor.action.copyLinesDownAction",
-                    "icon": "output",
-                    "iconColor": "terminal.ansiYellow",
-                    "disableTooltip": true
-                },
-                "行をつなげる": {
+                "行をつなげる 【Ctrl+Shift+J】": {
                     "command": "editor.action.joinLines",
                     "icon": "output",
                     "iconColor": "terminal.ansiYellow",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.複製": {
+            "nestedItems": {
+                "行を下へコピー 【Shift+F14】【Ctrl+D】": {
+                    "command": "editor.action.copyLinesDownAction",
+                    "icon": "copy",
+                    "iconColor": "terminal.ansiCyan",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.移動": {
+            "nestedItems": {
+                "行を上へ移動 【Shift+Alt+UpArrow】": {
+                    "command": "editor.action.moveLinesUpAction",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBrightGreen",
+                    "disableTooltip": true
+                },
+                "行を下へ移動 【Shift+Alt+DownArrow】": {
+                    "command": "editor.action.moveLinesDownAction",
+                    "icon": "go-to-file",
+                    "iconColor": "terminal.ansiBrightGreen",
                     "disableTooltip": true
                 }
             }
@@ -310,13 +324,13 @@
         },
         "編集.フォーマット": {
             "nestedItems": {
-                "ドキュメントのフォーマット 【Shift+F21】": {
+                "ドキュメントのフォーマット 【Shift+F21】【Ctrl+Alt+L】": {
                     "command": "editor.action.formatDocument",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "選択範囲のフォーマット 【Shift+F22】": {
+                "選択範囲のフォーマット 【Shift+F22】【Ctrl+Alt+L】": {
                     "command": "editor.action.formatSelection",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
@@ -326,13 +340,13 @@
         },
         "編集.コメント": {
             "nestedItems": {
-                "行コメントの切り替え 【Shift+F23】": {
+                "行コメントの切り替え 【Shift+F23】【Ctrl+/】": {
                     "command": "editor.action.commentLine",
                     "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "ブロック コメントの切り替え 【Shift+F24】": {
+                "ブロック コメントの切り替え 【Shift+F24】【Ctrl+Shift+/】": {
                     "command": "editor.action.blockComment",
                     "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
@@ -394,20 +408,6 @@
             "nestedItems": {
                 "ターミナル: アクティブなターミナルで選択したテキストを実行 【Alt+F13】": {
                     "command": "workbench.action.terminal.runSelectedText",
-                    "icon": "terminal",
-                    "iconColor": "terminal.ansiBrightYellow",
-                    "disableTooltip": true
-                },
-                "diff: ディレクトリ間の差分比較（Windows）": {
-                    "sequence": [
-                        "workbench.action.terminal.focus",
-                        {
-                            "command": "workbench.action.terminal.sendSequence",
-                            "args": {
-                                "text": "diff -qr -x \"$EXCLUDE_PATTERN\" $(cygpath -u \"$DIR_1\") $(cygpath -u \"$DIR_2\")"
-                            }
-                        }
-                    ],
                     "icon": "terminal",
                     "iconColor": "terminal.ansiBrightYellow",
                     "disableTooltip": true
@@ -484,6 +484,24 @@
                     ],
                     "icon": "terminal",
                     "iconColor": "terminal.ansiBrightCyan",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "ターミナル.比較": {
+            "nestedItems": {
+                "diff: ディレクトリ間の差分比較（Windows）": {
+                    "sequence": [
+                        "workbench.action.terminal.focus",
+                        {
+                            "command": "workbench.action.terminal.sendSequence",
+                            "args": {
+                                "text": "diff -qr -x \"$EXCLUDE_PATTERN\" $(cygpath -u \"$DIR_1\") $(cygpath -u \"$DIR_2\")"
+                            }
+                        }
+                    ],
+                    "icon": "terminal",
+                    "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 }
             }
