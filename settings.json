@@ -22,17 +22,6 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "npm.exclude": "",
-    "git-log--graph.details-panel-position": "bottom",
-    "git-log--graph.hide-quick-branch-tips": true,
-    "githd.logView.expressMode": true,
-    "githd.blameView.enabled": "disabled",
-    "githd.editor.disabled": true,
-    "githd.logView.displayExpressStatus": false,
-    "markdown-preview-enhanced.previewMode": "Multiple Previews",
-    "markdowntable.showMenu.csvToTable": true,
-    "redhat.telemetry.enabled": false,
-    "sqldeveloper.sqlHistory.historyLimit": 500,
-    "sqldeveloper.telemetry.enabled": false,
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
         "plaintext": true,
@@ -56,6 +45,19 @@
             "disableFolding": false
         }
     },
+    "git-log--graph.details-panel-position": "bottom",
+    "git-log--graph.hide-quick-branch-tips": true,
+    "githd.logView.expressMode": true,
+    "githd.blameView.enabled": "disabled",
+    "githd.editor.disabled": true,
+    "githd.logView.displayExpressStatus": false,
+    "markdown-preview-enhanced.previewMode": "Multiple Previews",
+    "markdowntable.showMenu.csvToTable": true,
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "sqldeveloper.telemetry.enabled": false,
+    "redhat.telemetry.enabled": false,
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
