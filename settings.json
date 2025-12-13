@@ -56,6 +56,7 @@
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "redhat.telemetry.enabled": false,
+    "java.settings.url": "https://gist.github.com/snjeza/e59f0ce031f237a9d0f4f2aec404a4bb",
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
     "commands.commands": {
