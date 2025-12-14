@@ -45,8 +45,9 @@
             "disableFolding": false
         }
     },
-    "git-log--graph.details-panel-position": "bottom",
-    "git-log--graph.hide-quick-branch-tips": true,
+    "git-log--graph.position": "view",
+    "git-log--graph.group-branch-remotes": false,
+    "git-log--graph.disable-commit-stats": true,
     "githd.logView.expressMode": true,
     "githd.blameView.enabled": "disabled",
     "githd.editor.disabled": true,
