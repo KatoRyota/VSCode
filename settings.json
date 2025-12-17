@@ -488,7 +488,7 @@
                         {
                             "command": "workbench.action.terminal.sendSequence",
                             "args": {
-                                "text": "grep -aP '$SEARCH_PATTERN' $SEARCH_PATH | sed 's/^\\s\\+//;s/\\s\\+$//' | sort -u"
+                                "text": "grep -aP '$SEARCH_PATTERN' $SEARCH_PATH | sed -E 's/^\\s+//;s/\\s+$//' | sort -u"
                             }
                         }
                     ],
