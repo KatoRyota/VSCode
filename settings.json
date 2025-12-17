@@ -5,11 +5,8 @@
     "editor.find.seedSearchStringFromSelection": "selection",
     "editor.renderWhitespace": "all",
     "editor.showFoldingControls": "always",
-    "editor.rulers": [
-        60,
-        80,
-        120
-    ],
+    "editor.rulers": [60, 80, 120],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.editor.enablePreview": false,
@@ -21,6 +18,9 @@
     "terminal.integrated.allowChords": false,
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
+    "[oracle-sql]": {
+        "editor.defaultFormatter": "Oracle.sql-developer"
+    },
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
@@ -52,10 +52,16 @@
     "githd.blameView.enabled": "disabled",
     "githd.editor.disabled": true,
     "githd.logView.displayExpressStatus": false,
+    "prettier.tabWidth": 4,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "markdowntable.showMenu.csvToTable": true,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
+    "sqldeveloper.format.alignment": {
+        "rightAlignQueryKeywords": false,
+        "namedArgumentSeparator": false
+    },
+    "sqldeveloper.format.indentation.identSpaces": 4,
     "redhat.telemetry.enabled": false,
     "java.settings.url": "https://gist.github.com/snjeza/e59f0ce031f237a9d0f4f2aec404a4bb",
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
