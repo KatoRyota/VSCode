@@ -14,6 +14,7 @@
     "window.customMenuBarAltFocus": false,
     "keyboard.mapAltGrToCtrlAlt": true,
     "git.autofetch": true,
+    "git.pruneOnFetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.hideUnchangedRegions.enabled": false,
