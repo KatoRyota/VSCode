@@ -26,6 +26,9 @@
     "[oracle-sql]": {
         "editor.defaultFormatter": "Oracle.sql-developer"
     },
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
