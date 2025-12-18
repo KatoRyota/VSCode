@@ -11,6 +11,8 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.editor.enablePreview": false,
+    "window.customMenuBarAltFocus": false,
+    "keyboard.mapAltGrToCtrlAlt": true,
     "git.autofetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
@@ -19,6 +21,7 @@
     "terminal.integrated.allowChords": false,
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.altClickMovesCursor": false,
     "[oracle-sql]": {
         "editor.defaultFormatter": "Oracle.sql-developer"
     },
