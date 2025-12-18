@@ -62,6 +62,7 @@
     "githd.logView.displayExpressStatus": false,
     "prettier.tabWidth": 4,
     "Prettier-SQL.SQLFlavourOverride": "sql",
+    "Prettier-SQL.ignoreTabSettings": true,
     "Prettier-SQL.tabSizeOverride": 4,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "markdowntable.showMenu.csvToTable": true,
