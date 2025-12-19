@@ -27,13 +27,15 @@
         "editor.defaultFormatter": "Oracle.sql-developer"
     },
     "[sql]": {
-        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
     },
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
-        "plaintext": true,
-        "markdown": true
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scmimput": false
     },
     "maptz.regionfolder": {
         "[plaintext]": {
@@ -61,9 +63,10 @@
     "githd.editor.disabled": true,
     "githd.logView.displayExpressStatus": false,
     "prettier.tabWidth": 4,
-    "Prettier-SQL.SQLFlavourOverride": "sql",
-    "Prettier-SQL.ignoreTabSettings": true,
-    "Prettier-SQL.tabSizeOverride": 4,
+    "SQL-Formatter-VSCode.dialect": "plsql",
+    "SQL-Formatter-VSCode.ignoreTabSettings": true,
+    "SQL-Formatter-VSCode.tabSizeOverride": 4,
+    "SQL-Formatter-VSCode.linesBetweenQueries": 2,
     "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "markdowntable.showMenu.csvToTable": true,
     "sqldeveloper.sqlHistory.historyLimit": 500,
@@ -353,6 +356,12 @@
                 },
                 "選択範囲のフォーマット 【Shift+F22】【Ctrl+Alt+L】": {
                     "command": "editor.action.formatSelection",
+                    "icon": "code",
+                    "iconColor": "terminal.ansiBrightCyan",
+                    "disableTooltip": true
+                },
+                "Format Selection (SQL Formatter VSCode)": {
+                    "command": "sql-formatter-vscode.format-selection",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
