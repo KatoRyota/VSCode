@@ -86,6 +86,12 @@
         "wrapLineLength": 120,
         "arrayStyle": "expand"
     },
+    "AHK++.v2.file": {
+        "interpreterPath": "C:\\Users\\kator\\AppData\\Local\\Packages\\53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\VFS\\ProgramFilesX64\\AutoHotkey\\v2\\AutoHotkey64.exe",
+        "maxScanDepth": 2,
+        "compileBaseFile": "C:\\Users\\kator\\AppData\\Local\\Packages\\53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\VFS\\ProgramFilesX64\\AutoHotkey\\Compiler\\Ahk2Exe.exe",
+        "helpPath": "C:\\Users\\kator\\AppData\\Local\\Packages\\53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4\\LocalCache\\Local\\Microsoft\\WritablePackageRoot\\VFS\\ProgramFilesX64\\AutoHotkey\\v2\\AutoHotkey.chm"
+    },
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
