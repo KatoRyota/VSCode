@@ -79,16 +79,7 @@
     "java.settings.url": "https://gist.github.com/snjeza/e59f0ce031f237a9d0f4f2aec404a4bb",
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
-    "AHK++.compiler": {
-        "compilerPath": "C:\\Program Files\\WindowsApps\\53721Descolada.AutoHotkeyv2StoreEdition_2.0.18.0_x64__m6g97a4f38wd4\\VFS\\ProgramFilesX64\\AutoHotkey\\Compiler\\Ahk2Exe.exe"
-    },
-    "AHK++.v1.file": {
-        "interpreterPath": "C:\\Program Files\\WindowsApps\\53721Descolada.AutoHotkeyv2StoreEdition_2.0.18.0_x64__m6g97a4f38wd4\\VFS\\ProgramFilesX64\\AutoHotkey\\AutoHotkeyU64.exe",
-        "helpPath": "C:\\Program Files\\WindowsApps\\53721Descolada.AutoHotkeyv2StoreEdition_2.0.18.0_x64__m6g97a4f38wd4\\VFS\\ProgramFilesX64\\AutoHotkey\\AutoHotkey.chm"
-    },
     "AHK++.v2.file": {
-        "interpreterPath": "C:\\Program Files\\WindowsApps\\53721Descolada.AutoHotkeyv2StoreEdition_2.0.18.0_x64__m6g97a4f38wd4\\VFS\\ProgramFilesX64\\AutoHotkey\\v2\\AutoHotkey64.exe",
-        "helpPath": "C:\\Program Files\\WindowsApps\\53721Descolada.AutoHotkeyv2StoreEdition_2.0.18.0_x64__m6g97a4f38wd4\\VFS\\ProgramFilesX64\\AutoHotkey\\v2\\AutoHotkey.chm",
         "maxScanDepth": 2
     },
     "AHK++.v2.formatter": {
