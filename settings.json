@@ -12,7 +12,6 @@
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.iconTheme": "vscode-icons",
     "window.customMenuBarAltFocus": false,
-    "keyboard.mapAltGrToCtrlAlt": true,
     "git.autofetch": true,
     "git.pruneOnFetch": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
