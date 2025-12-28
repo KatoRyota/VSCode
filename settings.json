@@ -182,6 +182,30 @@
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
+                "すべて折りたたみ 【Ctrl+Shift+-】": {
+                    "command": "editor.foldAll",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "すべて展開 【Ctrl+Shift+=】": {
+                    "command": "editor.unfoldAll",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "再帰的に折りたたむ 【Ctrl+Alt+-】": {
+                    "command": "editor.foldRecursively",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "再帰的に展開する 【Ctrl+Alt+=】": {
+                    "command": "editor.unfoldRecursively",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
                 "選択範囲から折りたたみ範囲を作成する 【F19】": {
                     "command": "editor.createFoldingRangeFromSelection",
                     "icon": "symbol-class",
@@ -235,8 +259,7 @@
                     "command": "workbench.action.gotoLine",
                     "icon": "target",
                     "iconColor": "terminal.ansiRed",
-                    "disableTooltip": true,
-                    "hidden": true
+                    "disableTooltip": true
                 }
             }
         },
@@ -276,13 +299,13 @@
         },
         "選択.全般": {
             "nestedItems": {
-                "選択範囲を拡張 【Ctrl+F17】": {
+                "選択範囲を拡張 【Ctrl+F17】【Ctrl+W】": {
                     "command": "editor.action.smartSelect.expand",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択範囲を縮小 【Ctrl+F18】": {
+                "選択範囲を縮小 【Ctrl+F18】【Ctrl+Shift+W】": {
                     "command": "editor.action.smartSelect.shrink",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
@@ -298,7 +321,7 @@
         },
         "編集.全般": {
             "nestedItems": {
-                "置換 【Shift+F13】【Ctrl+R】": {
+                "置換 【Ctrl+R】": {
                     "command": "editor.action.startFindReplaceAction",
                     "icon": "output",
                     "iconColor": "terminal.ansiYellow",
@@ -314,7 +337,7 @@
         },
         "編集.複製": {
             "nestedItems": {
-                "行を下へコピー 【Shift+F14】【Ctrl+D】": {
+                "行を下へコピー 【Shift+F19】【Ctrl+D】": {
                     "command": "editor.action.copyLinesDownAction",
                     "icon": "copy",
                     "iconColor": "terminal.ansiCyan",
@@ -356,13 +379,13 @@
         },
         "編集.フォーマット": {
             "nestedItems": {
-                "ドキュメントのフォーマット 【Shift+F21】【Ctrl+Alt+L】": {
+                "ドキュメントのフォーマット 【Ctrl+Alt+L】": {
                     "command": "editor.action.formatDocument",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "選択範囲のフォーマット 【Shift+F22】【Ctrl+Alt+L】": {
+                "選択範囲のフォーマット 【Ctrl+Alt+L】": {
                     "command": "editor.action.formatSelection",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
@@ -378,13 +401,13 @@
         },
         "編集.コメント": {
             "nestedItems": {
-                "行コメントの切り替え 【Shift+F23】【Ctrl+/】": {
+                "行コメントの切り替え 【Ctrl+/】": {
                     "command": "editor.action.commentLine",
                     "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "ブロック コメントの切り替え 【Shift+F24】【Ctrl+Shift+/】": {
+                "ブロック コメントの切り替え 【Ctrl+Shift+/】": {
                     "command": "editor.action.blockComment",
                     "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",
