@@ -311,13 +311,13 @@
         },
         "選択.全般": {
             "nestedItems": {
-                "選択範囲を拡張 【Ctrl+W】": {
+                "選択範囲を拡張 【Shift+Alt+RightArrow】": {
                     "command": "editor.action.smartSelect.expand",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択範囲を縮小 【Ctrl+Shift+W】": {
+                "選択範囲を縮小 【Shift+Alt+LeftArrow】": {
                     "command": "editor.action.smartSelect.shrink",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
