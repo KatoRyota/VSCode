@@ -170,49 +170,49 @@
         },
         "表示.折りたたみ": {
             "nestedItems": {
-                "選択した項目を除くすべて折りたたみ 【F17】": {
+                "選択した項目を除くすべて折りたたみ 【Ctrl+K, Ctrl+-】": {
                     "command": "editor.foldAllExcept",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択した項目を除くすべて展開 【F18】": {
+                "選択した項目を除くすべて展開 【Ctrl+K, Ctrl+=】": {
                     "command": "editor.unfoldAllExcept",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "すべて折りたたみ 【Ctrl+Shift+-】": {
+                "すべて折りたたみ 【Ctrl+K, Ctrl+0】": {
                     "command": "editor.foldAll",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "すべて展開 【Ctrl+Shift+=】": {
+                "すべて展開 【Ctrl+K, Ctrl+J】": {
                     "command": "editor.unfoldAll",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "再帰的に折りたたむ 【Ctrl+Alt+-】": {
+                "再帰的に折りたたむ 【Ctrl+K, Ctrl+[】": {
                     "command": "editor.foldRecursively",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "再帰的に展開する 【Ctrl+Alt+=】": {
+                "再帰的に展開する 【Ctrl+K, Ctrl+]】": {
                     "command": "editor.unfoldRecursively",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択範囲から折りたたみ範囲を作成する 【F19】": {
+                "選択範囲から折りたたみ範囲を作成する 【Ctrl+K, Ctrl+,】": {
                     "command": "editor.createFoldingRangeFromSelection",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "手動折りたたみ範囲を削除する 【F20】": {
+                "手動折りたたみ範囲を削除する 【Ctrl+K, Ctrl+.】": {
                     "command": "editor.removeManualFoldingRanges",
                     "icon": "symbol-class",
                     "iconColor": "terminal.ansiMagenta",
@@ -249,7 +249,7 @@
         },
         "移動.全般": {
             "nestedItems": {
-                "ブラケットへ移動 【Ctrl+Shift+M】": {
+                "ブラケットへ移動 【Ctrl+Shift+\\】": {
                     "command": "editor.action.jumpToBracket",
                     "icon": "target",
                     "iconColor": "terminal.ansiRed",
@@ -265,19 +265,19 @@
         },
         "移動.履歴": {
             "nestedItems": {
-                "最後の編集位置へ移動 【Ctrl+Shift+Backspace】": {
+                "最後の編集位置へ移動 【Ctrl+K, Ctrl+Q】": {
                     "command": "workbench.action.navigateToLastEditLocation",
                     "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "前に戻る 【Ctrl+Alt+LeftArrow】": {
+                "前に戻る 【Alt+LeftArrow】": {
                     "command": "workbench.action.navigateBack",
                     "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "次に進む 【Ctrl+Alt+RightArrow】": {
+                "次に進む 【Alt+RightArrow】": {
                     "command": "workbench.action.navigateForward",
                     "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
@@ -323,7 +323,7 @@
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "列選択モードの切り替え 【Shift+Alt+Insert】": {
+                "列選択モードの切り替え 【Ctrl+F13】": {
                     "command": "editor.action.toggleColumnSelection",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
@@ -333,13 +333,13 @@
         },
         "編集.全般": {
             "nestedItems": {
-                "置換 【Ctrl+R】": {
+                "置換 【Ctrl+H】": {
                     "command": "editor.action.startFindReplaceAction",
                     "icon": "output",
                     "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 },
-                "行をつなげる 【Ctrl+Shift+J】": {
+                "行をつなげる": {
                     "command": "editor.action.joinLines",
                     "icon": "output",
                     "iconColor": "terminal.ansiYellow",
@@ -349,7 +349,7 @@
         },
         "編集.複製": {
             "nestedItems": {
-                "行を下へコピー 【Shift+F19】【Ctrl+D】": {
+                "行を下へコピー 【Shift+Alt+DownArrow】": {
                     "command": "editor.action.copyLinesDownAction",
                     "icon": "copy",
                     "iconColor": "terminal.ansiCyan",
@@ -359,13 +359,13 @@
         },
         "編集.移動": {
             "nestedItems": {
-                "行を上へ移動 【Shift+Alt+UpArrow】": {
+                "行を上へ移動 【Alt+UpArrow】": {
                     "command": "editor.action.moveLinesUpAction",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiBrightGreen",
                     "disableTooltip": true
                 },
-                "行を下へ移動 【Shift+Alt+DownArrow】": {
+                "行を下へ移動 【Alt+DownArrow】": {
                     "command": "editor.action.moveLinesDownAction",
                     "icon": "go-to-file",
                     "iconColor": "terminal.ansiBrightGreen",
@@ -391,13 +391,13 @@
         },
         "編集.フォーマット": {
             "nestedItems": {
-                "ドキュメントのフォーマット 【Ctrl+Alt+L】": {
+                "ドキュメントのフォーマット 【Shift+Alt+F】": {
                     "command": "editor.action.formatDocument",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
                     "disableTooltip": true
                 },
-                "選択範囲のフォーマット 【Ctrl+Alt+L】": {
+                "選択範囲のフォーマット 【Ctrl+K, Ctrl+F】": {
                     "command": "editor.action.formatSelection",
                     "icon": "code",
                     "iconColor": "terminal.ansiBrightCyan",
@@ -419,7 +419,7 @@
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "ブロック コメントの切り替え 【Ctrl+Shift+/】": {
+                "ブロック コメントの切り替え 【Shift+Alt+A】": {
                     "command": "editor.action.blockComment",
                     "icon": "comment",
                     "iconColor": "terminal.ansiMagenta",

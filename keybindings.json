@@ -32,16 +32,11 @@
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "shift+f19",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+f13",
+        "command": "editor.action.toggleColumnSelection"
     },
     {
         "key": "alt+f13",
         "command": "workbench.action.terminal.runSelectedText"
-    },
-    {
-        "key": "ctrl+s",
-        "command": "-workbench.action.files.saveAll"
     }
 ]
