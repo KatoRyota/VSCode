@@ -375,13 +375,13 @@
         },
         "編集.変換": {
             "nestedItems": {
-                "小文字に変換 【Shift+F17】": {
+                "小文字に変換": {
                     "command": "editor.action.transformToLowercase",
                     "icon": "replace",
                     "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
-                "大文字に変換 【Shift+F18】": {
+                "大文字に変換": {
                     "command": "editor.action.transformToUppercase",
                     "icon": "replace",
                     "iconColor": "terminal.ansiBrightRed",
