@@ -108,7 +108,7 @@
         },
         "表示.レイアウト": {
             "nestedItems": {
-                "表示: エディター グループのサイズをリセット 【F14】": {
+                "表示: エディター グループのサイズをリセット 【F13】": {
                     "command": "workbench.action.evenEditorWidths",
                     "icon": "layout",
                     "iconColor": "terminal.ansiBlue",
