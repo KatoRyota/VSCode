@@ -91,7 +91,7 @@
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
-                "表示: [右端での折り返し] の設定/解除 【F13】": {
+                "表示: [右端での折り返し] の設定/解除 【Alt+Z】": {
                     "command": "editor.action.toggleWordWrap",
                     "icon": "gear",
                     "iconColor": "terminal.ansiBrightYellow",
@@ -265,8 +265,20 @@
         },
         "移動.履歴": {
             "nestedItems": {
-                "最後の編集位置へ移動 【Ctrl+F13】【Ctrl+Shift+Backspace】": {
+                "最後の編集位置へ移動 【Ctrl+Shift+Backspace】": {
                     "command": "workbench.action.navigateToLastEditLocation",
+                    "icon": "rocket",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "前に戻る 【Ctrl+Alt+LeftArrow】": {
+                    "command": "workbench.action.navigateBack",
+                    "icon": "rocket",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "次に進む 【Ctrl+Alt+RightArrow】": {
+                    "command": "workbench.action.navigateForward",
                     "icon": "rocket",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
@@ -299,19 +311,19 @@
         },
         "選択.全般": {
             "nestedItems": {
-                "選択範囲を拡張 【Ctrl+F17】【Ctrl+W】": {
+                "選択範囲を拡張 【Ctrl+W】": {
                     "command": "editor.action.smartSelect.expand",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "選択範囲を縮小 【Ctrl+F18】【Ctrl+Shift+W】": {
+                "選択範囲を縮小 【Ctrl+Shift+W】": {
                     "command": "editor.action.smartSelect.shrink",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
-                "列選択モードの切り替え 【Ctrl+F19】": {
+                "列選択モードの切り替え 【Shift+Alt+Insert】": {
                     "command": "editor.action.toggleColumnSelection",
                     "icon": "selection",
                     "iconColor": "terminal.ansiMagenta",
