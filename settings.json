@@ -331,24 +331,40 @@
                 }
             }
         },
-        "編集.全般": {
+        "編集.削除": {
             "nestedItems": {
-                "置換 【Ctrl+H】": {
-                    "command": "editor.action.startFindReplaceAction",
-                    "icon": "output",
-                    "iconColor": "terminal.ansiYellow",
+                "行の削除 【Ctrl+Shift+K】": {
+                    "command": "editor.action.deleteLines",
+                    "icon": "copy",
+                    "iconColor": "terminal.ansiCyan",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.挿入": {
+            "nestedItems": {
+                "行を上に挿入 【Ctrl+Shift+Enter】": {
+                    "command": "editor.action.insertLineBefore",
+                    "icon": "copy",
+                    "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
                 },
-                "行をつなげる": {
-                    "command": "editor.action.joinLines",
-                    "icon": "output",
-                    "iconColor": "terminal.ansiYellow",
+                "行を下に挿入 【Ctrl+Enter】": {
+                    "command": "editor.action.insertLineAfter",
+                    "icon": "copy",
+                    "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
                 }
             }
         },
         "編集.複製": {
             "nestedItems": {
+                "行を上へコピー 【Shift+Alt+UpArrow】": {
+                    "command": "editor.action.copyLinesUpAction",
+                    "icon": "copy",
+                    "iconColor": "terminal.ansiCyan",
+                    "disableTooltip": true
+                },
                 "行を下へコピー 【Shift+Alt+DownArrow】": {
                     "command": "editor.action.copyLinesDownAction",
                     "icon": "copy",
@@ -373,18 +389,12 @@
                 }
             }
         },
-        "編集.変換": {
+        "編集.置換": {
             "nestedItems": {
-                "小文字に変換": {
-                    "command": "editor.action.transformToLowercase",
-                    "icon": "replace",
-                    "iconColor": "terminal.ansiBrightRed",
-                    "disableTooltip": true
-                },
-                "大文字に変換": {
-                    "command": "editor.action.transformToUppercase",
-                    "icon": "replace",
-                    "iconColor": "terminal.ansiBrightRed",
+                "置換 【Ctrl+H】": {
+                    "command": "editor.action.startFindReplaceAction",
+                    "icon": "output",
+                    "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 }
             }
@@ -427,18 +437,28 @@
                 }
             }
         },
-        "編集.折りたたみ": {
+        "編集.変換": {
             "nestedItems": {
-                "Region folding: Wrap selection with #region tag.": {
-                    "command": "regionfolder.wrapWithRegion",
-                    "icon": "symbol-class",
-                    "iconColor": "terminal.ansiGreen",
+                "小文字に変換": {
+                    "command": "editor.action.transformToLowercase",
+                    "icon": "replace",
+                    "iconColor": "terminal.ansiBrightRed",
                     "disableTooltip": true
                 },
-                "Region folding: Delete current #region tags": {
-                    "command": "regionfolder.removeCurrentRegionTags",
-                    "icon": "symbol-class",
-                    "iconColor": "terminal.ansiGreen",
+                "大文字に変換": {
+                    "command": "editor.action.transformToUppercase",
+                    "icon": "replace",
+                    "iconColor": "terminal.ansiBrightRed",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.その他": {
+            "nestedItems": {
+                "行をつなげる": {
+                    "command": "editor.action.joinLines",
+                    "icon": "output",
+                    "iconColor": "terminal.ansiYellow",
                     "disableTooltip": true
                 }
             }
@@ -473,6 +493,22 @@
                     "command": "markdown.extension.editing.toggleCodeBlock",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBrightRed",
+                    "disableTooltip": true
+                }
+            }
+        },
+        "編集.折りたたみ": {
+            "nestedItems": {
+                "Region folding: Wrap selection with #region tag.": {
+                    "command": "regionfolder.wrapWithRegion",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiGreen",
+                    "disableTooltip": true
+                },
+                "Region folding: Delete current #region tags": {
+                    "command": "regionfolder.removeCurrentRegionTags",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 }
             }
