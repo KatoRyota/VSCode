@@ -38,5 +38,10 @@
     {
         "key": "alt+f13",
         "command": "workbench.action.terminal.runSelectedText"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-extension.copyReferenceWithFormat",
+        "when": "editorTextFocus"
     }
 ]
