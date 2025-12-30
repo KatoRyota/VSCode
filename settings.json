@@ -368,13 +368,13 @@
             "nestedItems": {
                 "行のインデント 【Ctrl+]】": {
                     "command": "editor.action.indentLines",
-                    "icon": "code",
+                    "icon": "indent",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
                 "行のインデント解除 【Ctrl+[】": {
                     "command": "editor.action.outdentLines",
-                    "icon": "code",
+                    "icon": "indent",
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 }
