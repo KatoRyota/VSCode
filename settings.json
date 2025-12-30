@@ -358,7 +358,7 @@
             "nestedItems": {
                 "置換 【Ctrl+H】": {
                     "command": "editor.action.startFindReplaceAction",
-                    "icon": "output",
+                    "icon": "replace-all",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 }
