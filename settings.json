@@ -300,7 +300,7 @@
             "nestedItems": {
                 "行の削除 【Ctrl+Shift+K】": {
                     "command": "editor.action.deleteLines",
-                    "icon": "output",
+                    "icon": "clear-all",
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 }
