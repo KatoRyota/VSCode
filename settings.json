@@ -326,13 +326,13 @@
             "nestedItems": {
                 "行を上へコピー 【Shift+Alt+UpArrow】": {
                     "command": "editor.action.copyLinesUpAction",
-                    "icon": "copy",
+                    "icon": "clippy",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 },
                 "行を下へコピー 【Shift+Alt+DownArrow】": {
                     "command": "editor.action.copyLinesDownAction",
-                    "icon": "copy",
+                    "icon": "clippy",
                     "iconColor": "terminal.ansiGreen",
                     "disableTooltip": true
                 }
