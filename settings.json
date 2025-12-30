@@ -310,13 +310,13 @@
             "nestedItems": {
                 "行を上に挿入 【Ctrl+Shift+Enter】": {
                     "command": "editor.action.insertLineBefore",
-                    "icon": "output",
+                    "icon": "insert",
                     "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
                 },
                 "行を下に挿入 【Ctrl+Enter】": {
                     "command": "editor.action.insertLineAfter",
-                    "icon": "output",
+                    "icon": "insert",
                     "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
                 }
