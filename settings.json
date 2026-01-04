@@ -79,15 +79,6 @@
     "java.settings.url": "https://gist.github.com/snjeza/e59f0ce031f237a9d0f4f2aec404a4bb",
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.format.settings.profile": "GoogleStyle",
-    "AHK++.v2.file": {
-        "maxScanDepth": 2
-    },
-    "AHK++.v2.formatter": {
-        "maxPreserveNewlines": 2,
-        "wrapLineLength": 120,
-        "objectStyle": "expand",
-        "arrayStyle": "expand"
-    },
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
