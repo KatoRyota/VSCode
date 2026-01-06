@@ -11,6 +11,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.iconTheme": "vscode-icons",
+    "problems.visibility": false,
     "window.customMenuBarAltFocus": false,
     "git.autofetch": true,
     "git.pruneOnFetch": true,
@@ -54,9 +55,6 @@
             "disableFolding": false
         }
     },
-    "git-log--graph.position": "view",
-    "git-log--graph.group-branch-remotes": false,
-    "git-log--graph.disable-commit-stats": true,
     "githd.logView.expressMode": true,
     "githd.blameView.enabled": "disabled",
     "githd.editor.disabled": true,
@@ -75,10 +73,8 @@
         "namedArgumentSeparator": false
     },
     "sqldeveloper.format.indentation.identSpaces": 4,
-    "redhat.telemetry.enabled": false,
-    "java.settings.url": "https://gist.github.com/snjeza/e59f0ce031f237a9d0f4f2aec404a4bb",
-    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-    "java.format.settings.profile": "GoogleStyle",
+    "jdk.telemetry.enabled": false,
+    "jdk.jdkhome": "c:\\Java\\openJdk-25",
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
