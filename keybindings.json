@@ -12,26 +12,6 @@
         "command": "行の位置: センター 【F16】"
     },
     {
-        "key": "f17",
-        "command": "editor.foldAllExcept",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "f18",
-        "command": "editor.unfoldAllExcept",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "f19",
-        "command": "editor.createFoldingRangeFromSelection",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "f20",
-        "command": "editor.removeManualFoldingRanges",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
         "key": "ctrl+f13",
         "command": "editor.action.toggleColumnSelection"
     },
@@ -42,21 +22,6 @@
     {
         "key": "shift+alt+f",
         "command": "-extension.copyReferenceWithFormat",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "-markdown-preview-enhanced.runAllCodeChunks",
-        "when": "editorLangId == 'markdown'"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "-sqldeveloper.worksheet.runInSQLcl",
-        "when": "editorTextFocus && sqldeveloper.activeEditorType == 'sqlWorksheet' && sqldeveloper.worksheet.activeWorksheetId not in 'sqldeveloper.worksheet.busyWorksheetIds'"
-    },
-    {
-        "key": "ctrl+shift+m ctrl+shift+r",
-        "command": "-regionfolder.collapseDefault",
         "when": "editorTextFocus"
     }
 ]
