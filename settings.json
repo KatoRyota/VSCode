@@ -432,32 +432,62 @@
         },
         "編集.Markdown": {
             "nestedItems": {
-                "Markdown All in One: Create Table of Contents": {
+                "Markdown All in One: 目次（TOC）の作成": {
                     "command": "markdown.extension.toc.create",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "Markdown All in One: Add/Update section numbers": {
+                "Markdown All in One: 目次（TOC）の更新": {
+                    "command": "markdown.extension.toc.update",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Markdown All in One: セクション番号を追加/更新": {
                     "command": "markdown.extension.toc.addSecNumbers",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "Markdown All in One: Remove section numbers": {
+                "Markdown All in One: セクション番号の除去": {
                     "command": "markdown.extension.toc.removeSecNumbers",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "Markdown All in One: Toggle list": {
+                "Markdown All in One: リスト構文のトグル": {
                     "command": "markdown.extension.editing.toggleList",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
-                "Markdown All in One: Toggle code block": {
+                "Markdown All in One: コードブロック構文のトグル": {
                     "command": "markdown.extension.editing.toggleCodeBlock",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Markdown All in One: インラインコード構文のトグル": {
+                    "command": "markdown.extension.editing.toggleCodeSpan",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Markdown All in One: Toggle Bold 【Ctrl+B】": {
+                    "command": "markdown.extension.editing.toggleBold",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Markdown All in One: Toggle Italic 【Ctrl+I】": {
+                    "command": "markdown.extension.editing.toggleItalic",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Markdown All in One: Toggle Strikethrough 【Alt+S】": {
+                    "command": "markdown.extension.editing.toggleStrikethrough",
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
