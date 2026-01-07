@@ -64,7 +64,6 @@
     "SQL-Formatter-VSCode.ignoreTabSettings": true,
     "SQL-Formatter-VSCode.tabSizeOverride": 4,
     "SQL-Formatter-VSCode.linesBetweenQueries": 2,
-    "markdown-preview-enhanced.previewMode": "Multiple Previews",
     "markdowntable.showMenu.csvToTable": true,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
