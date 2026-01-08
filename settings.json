@@ -67,6 +67,7 @@
     "markdown.extension.list.indentationSize": "inherit",
     "markdown.extension.toc.plaintext": true,
     "markdown.extension.toc.updateOnSave": false,
+    "markdown.extension.tableFormatter.enabled": false,
     "markdowntable.showMenu.csvToTable": true,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
