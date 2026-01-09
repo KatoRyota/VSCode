@@ -496,6 +496,18 @@
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
                 },
+                "Toggle heading (uplevel) 【Ctrl+Shift+]】": {
+                    "command": "markdown.extension.editing.toggleHeadingUp",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "Toggle heading (downlevel) 【Ctrl+Shift+[】": {
+                    "command": "markdown.extension.editing.toggleHeadingDown",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
                 "md2confl: Convert markdown to confluence and Copy to clipboard": {
                     "command": "extension.md2confl.convert2Clipboard",
                     "icon": "markdown",
