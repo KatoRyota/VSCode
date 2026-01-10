@@ -168,6 +168,36 @@
                     "iconColor": "terminal.ansiMagenta",
                     "disableTooltip": true
                 },
+                "レベル 1 で折りたたむ 【Ctrl+K, Ctrl+1】": {
+                    "command": "editor.foldLevel1",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "レベル 2 で折りたたむ 【Ctrl+K, Ctrl+2】": {
+                    "command": "editor.foldLevel2",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "レベル 3 で折りたたむ 【Ctrl+K, Ctrl+3】": {
+                    "command": "editor.foldLevel3",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "レベル 4 で折りたたむ 【Ctrl+K, Ctrl+4】": {
+                    "command": "editor.foldLevel4",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
+                "レベル 5 で折りたたむ 【Ctrl+K, Ctrl+5】": {
+                    "command": "editor.foldLevel5",
+                    "icon": "symbol-class",
+                    "iconColor": "terminal.ansiMagenta",
+                    "disableTooltip": true
+                },
                 "選択範囲から折りたたみ範囲を作成する 【Ctrl+K, Ctrl+,】": {
                     "command": "editor.createFoldingRangeFromSelection",
                     "icon": "symbol-class",
