@@ -223,7 +223,7 @@
                 "問題・警告 表示のON/OFF": {
                     "command": "toggle",
                     "args": {
-                        "id": "minimap",
+                        "id": "problems.visibility",
                         "value": [
                             {
                                 "problems.visibility": false
