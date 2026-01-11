@@ -37,6 +37,10 @@
         "markdown": false,
         "scminput": false
     },
+    "githd.logView.expressMode": true,
+    "githd.blameView.enabled": "disabled",
+    "githd.editor.disabled": true,
+    "githd.logView.displayExpressStatus": false,
     "maptz.regionfolder": {
         "[plaintext]": {
             "foldStart": "#region [NAME]",
@@ -55,10 +59,6 @@
             "disableFolding": false
         }
     },
-    "githd.logView.expressMode": true,
-    "githd.blameView.enabled": "disabled",
-    "githd.editor.disabled": true,
-    "githd.logView.displayExpressStatus": false,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
     "markdown.extension.list.indentationSize": "inherit",
