@@ -60,6 +60,7 @@
     "githd.editor.disabled": true,
     "githd.logView.displayExpressStatus": false,
     "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
     "SQL-Formatter-VSCode.dialect": "plsql",
     "SQL-Formatter-VSCode.ignoreTabSettings": true,
     "SQL-Formatter-VSCode.tabSizeOverride": 4,
