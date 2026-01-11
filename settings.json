@@ -80,6 +80,7 @@
     "sqldeveloper.format.indentation.identSpaces": 4,
     "jdk.telemetry.enabled": false,
     "jdk.jdkhome": "c:\\Java\\openJdk-25",
+    "commands.toggleSettings.showNotification": true,
     "commands.commands": {
         "表示.全般": {
             "nestedItems": {
@@ -223,17 +224,10 @@
                     "disableTooltip": true
                 },
                 "問題・警告 表示のON/OFF": {
-                    "command": "toggle",
+                    "command": "commands.toggleSetting",
                     "args": {
-                        "id": "problems.visibility",
-                        "value": [
-                            {
-                                "problems.visibility": false
-                            },
-                            {
-                                "problems.visibility": true
-                            }
-                        ]
+                        "setting": "problems.visibility",
+                        "value": [false, true]
                     },
                     "icon": "file-code",
                     "iconColor": "terminal.ansiCyan",
@@ -559,6 +553,15 @@
                 },
                 "md2confl: Convert markdown to confluence and Copy to clipboard": {
                     "command": "extension.md2confl.convert2Clipboard",
+                    "icon": "markdown",
+                    "iconColor": "terminal.ansiBlue",
+                    "disableTooltip": true
+                },
+                "目次・セクションから除外": {
+                    "command": "editor.action.insertSnippet",
+                    "args": {
+                        "snippet": "<!-- omit from toc -->"
+                    },
                     "icon": "markdown",
                     "iconColor": "terminal.ansiBlue",
                     "disableTooltip": true
