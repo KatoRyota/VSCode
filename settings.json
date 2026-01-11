@@ -61,10 +61,6 @@
     "githd.logView.displayExpressStatus": false,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
-    "SQL-Formatter-VSCode.dialect": "plsql",
-    "SQL-Formatter-VSCode.ignoreTabSettings": true,
-    "SQL-Formatter-VSCode.tabSizeOverride": 4,
-    "SQL-Formatter-VSCode.linesBetweenQueries": 2,
     "markdown.extension.list.indentationSize": "inherit",
     "markdowntable.showMenu.csvToTable": true,
     "markdownlint.config": {
@@ -72,6 +68,10 @@
             "indent": 4
         }
     },
+    "SQL-Formatter-VSCode.dialect": "plsql",
+    "SQL-Formatter-VSCode.ignoreTabSettings": true,
+    "SQL-Formatter-VSCode.tabSizeOverride": 4,
+    "SQL-Formatter-VSCode.linesBetweenQueries": 2,
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "sqldeveloper.format.alignment": {
