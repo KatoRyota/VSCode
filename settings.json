@@ -11,7 +11,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.iconTheme": "vscode-icons",
-    "problems.visibility": false,
+    "problems.visibility": true,
     "window.customMenuBarAltFocus": false,
     "git.autofetch": true,
     "git.pruneOnFetch": true,
@@ -65,10 +65,12 @@
     "SQL-Formatter-VSCode.tabSizeOverride": 4,
     "SQL-Formatter-VSCode.linesBetweenQueries": 2,
     "markdown.extension.list.indentationSize": "inherit",
-    "markdown.extension.toc.plaintext": true,
-    "markdown.extension.toc.updateOnSave": false,
-    "markdown.extension.tableFormatter.enabled": false,
     "markdowntable.showMenu.csvToTable": true,
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4
+        }
+    },
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "sqldeveloper.format.alignment": {
