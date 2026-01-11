@@ -219,6 +219,23 @@
                     "icon": "file-code",
                     "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
+                },
+                "問題・警告 表示のON/OFF": {
+                    "command": "toggle",
+                    "args": {
+                        "id": "minimap",
+                        "value": [
+                            {
+                                "problems.visibility": false
+                            },
+                            {
+                                "problems.visibility": true
+                            }
+                        ]
+                    },
+                    "icon": "file-code",
+                    "iconColor": "terminal.ansiCyan",
+                    "disableTooltip": true
                 }
             }
         },
