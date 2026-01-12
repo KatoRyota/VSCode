@@ -31,9 +31,9 @@
         "markdown": false,
         "scminput": false
     },
-    "githd.logView.expressMode": true,
-    "githd.blameView.enabled": "disabled",
     "githd.editor.disabled": true,
+    "githd.blameView.enabled": "disabled",
+    "githd.logView.expressMode": true,
     "githd.logView.displayExpressStatus": false,
     "[oracle-sql]": {
         "editor.defaultFormatter": "Oracle.sql-developer"
