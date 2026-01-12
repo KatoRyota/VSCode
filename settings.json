@@ -6,7 +6,6 @@
     "editor.renderWhitespace": "all",
     "editor.showFoldingControls": "always",
     "editor.rulers": [60, 80, 120],
-    "editor.defaultFormatter": "prettier.prettier-vscode",
     "editor.detectIndentation": false,
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
@@ -35,29 +34,29 @@
     "githd.blameView.enabled": "disabled",
     "githd.logView.expressMode": true,
     "githd.logView.displayExpressStatus": false,
-    "[oracle-sql]": {
-        "editor.defaultFormatter": "Oracle.sql-developer"
+    "[plaintext]": {
+        "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
+        "explicitFolding.rules": [
+            {
+                "begin": "{{{",
+                "end": "}}}"
+            }
+        ]
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "prettier.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "prettier.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "prettier.prettier-vscode"
     },
     "[sql]": {
         "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
     },
-    "maptz.regionfolder": {
-        "[plaintext]": {
-            "foldStart": "#region [NAME]",
-            "foldEnd": "#endregion",
-            "foldStartRegex": "#region\\s*(.*)",
-            "foldEndRegex": "#endregion",
-            "defaultFoldStartRegex": "#region\\b",
-            "disableFolding": false
-        },
-        "[markdown]": {
-            "foldStart": "<!-- #region [NAME] -->",
-            "foldEnd": "<!-- #endregion -->",
-            "foldStartRegex": "<!--\\s*#region\\s*(.*)-->",
-            "foldEndRegex": "<!--\\s*#endregion\\s*-->",
-            "defaultFoldStartRegex": "<!--\\s*#region\\b.*-->",
-            "disableFolding": false
-        }
+    "[oracle-sql]": {
+        "editor.defaultFormatter": "Oracle.sql-developer"
     },
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
