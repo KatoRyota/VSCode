@@ -23,12 +23,6 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.altClickMovesCursor": false,
-    "[oracle-sql]": {
-        "editor.defaultFormatter": "Oracle.sql-developer"
-    },
-    "[sql]": {
-        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
-    },
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
@@ -41,6 +35,12 @@
     "githd.blameView.enabled": "disabled",
     "githd.editor.disabled": true,
     "githd.logView.displayExpressStatus": false,
+    "[oracle-sql]": {
+        "editor.defaultFormatter": "Oracle.sql-developer"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+    },
     "maptz.regionfolder": {
         "[plaintext]": {
             "foldStart": "#region [NAME]",
