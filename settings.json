@@ -87,6 +87,7 @@
     },
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
+    "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
     "jdk.telemetry.enabled": false,
     "jdk.jdkhome": "c:\\Java\\openJdk-25",
     "commands.toggleSettings.showNotification": true,
