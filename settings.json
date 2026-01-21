@@ -46,13 +46,13 @@
         ]
     },
     "[markdown]": {
-        "editor.defaultFormatter": "prettier.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json]": {
-        "editor.defaultFormatter": "prettier.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
-        "editor.defaultFormatter": "prettier.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[sql]": {
         "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
