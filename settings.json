@@ -233,6 +233,12 @@
                     "iconColor": "terminal.ansiCyan",
                     "disableTooltip": true
                 },
+                "ファイル: すべてのエディターを外観別に表示 【Ctrl+K, Ctrl+P】": {
+                    "command": "workbench.action.showAllEditors",
+                    "icon": "file-code",
+                    "iconColor": "terminal.ansiCyan",
+                    "disableTooltip": true
+                },
                 "問題・警告 表示のON/OFF": {
                     "command": "commands.toggleSetting",
                     "args": {
