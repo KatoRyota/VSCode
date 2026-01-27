@@ -11,6 +11,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
     "problems.visibility": true,
     "window.customMenuBarAltFocus": false,
     "git.autofetch": true,
