@@ -94,10 +94,10 @@
     "jdk.telemetry.enabled": false,
     "jdk.jdkhome": "c:\\Java\\openJdk-25",
     "gremlins.characters": {
-        "2018":{
+        "2018": {
             "level": "none"
         },
-        "2019":{
+        "2019": {
             "level": "none"
         }
     },
