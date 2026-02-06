@@ -15,6 +15,7 @@
     "window.customMenuBarAltFocus": false,
     "git.autofetch": true,
     "git.pruneOnFetch": true,
+    "git.openRepositoryInParentFolders": "never",
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.hideUnchangedRegions.enabled": false,
