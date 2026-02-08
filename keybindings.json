@@ -4,12 +4,12 @@
         "command": "workbench.action.evenEditorWidths"
     },
     {
-        "key": "f15",
-        "command": "行の位置: トップ 【F15】"
+        "key": "f14",
+        "command": "行の位置: トップ 【F14】"
     },
     {
-        "key": "f16",
-        "command": "行の位置: センター 【F16】"
+        "key": "f15",
+        "command": "行の位置: センター 【F15】"
     },
     {
         "key": "ctrl+f13",

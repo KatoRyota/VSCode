@@ -136,7 +136,7 @@
         },
         "表示.スクロール": {
             "nestedItems": {
-                "行の位置: トップ 【F15】": {
+                "行の位置: トップ 【F14】": {
                     "command": "revealLine",
                     "args": {
                         "lineNumber": "${lineNumber}",
@@ -146,7 +146,7 @@
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "行の位置: センター 【F16】": {
+                "行の位置: センター 【F15】": {
                     "command": "revealLine",
                     "args": {
                         "lineNumber": "${lineNumber}",
