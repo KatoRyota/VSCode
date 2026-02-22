@@ -110,6 +110,7 @@
     },
     "favorites.dataLocation": "${workspaceFolder}\\.vscode",
     "favorites.disablePreviewWarning": true,
+    "favorites.showListSeparator": false,
     "commands.toggleSettings.showNotification": true,
     "commands.commands": {
         "表示.全般": {
