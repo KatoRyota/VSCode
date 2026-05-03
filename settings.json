@@ -103,8 +103,7 @@
     "sqldeveloper.sqlHistory.historyLimit": 500,
     "sqldeveloper.telemetry.enabled": false,
     "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
-    "jdk.telemetry.enabled": false,
-    "jdk.jdkhome": "c:\\Java\\openJdk-25",
+    "java.jdt.ls.java.home": "C:\\Java\\openJdk-25",
     "gremlins.characters": {
         "2018": {
             "level": "none"
