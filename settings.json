@@ -24,6 +24,7 @@
     "git.autofetch": true,
     "git.pruneOnFetch": true,
     "git.openRepositoryInParentFolders": "never",
+    "git.blame.editorDecoration.enabled": false,
     "diffEditor.renderSideBySide": true,
     "diffEditor.renderSideBySideInlineBreakpoint": 1,
     "diffEditor.ignoreTrimWhitespace": true,
@@ -33,6 +34,7 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.altClickMovesCursor": false,
+    "extensions.ignoreRecommendations": true,
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "github.copilot.enable": {
