@@ -12,12 +12,8 @@
         "command": "行の位置: センター 【F15】"
     },
     {
-        "key": "ctrl+f13",
+        "key": "f16",
         "command": "editor.action.toggleColumnSelection"
-    },
-    {
-        "key": "alt+f13",
-        "command": "workbench.action.terminal.runSelectedText"
     },
     {
         "key": "shift+alt+f",

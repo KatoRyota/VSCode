@@ -11,13 +11,14 @@
     "editor.stickyScroll.enabled": false,
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
+    "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Light Modern",
     "workbench.activityBar.location": "top",
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.quickOpen.closeOnFocusLost": false,
-    "problems.visibility": true,
+    "problems.visibility": false,
     "window.customMenuBarAltFocus": false,
     "window.menuBarVisibility": "compact",
     "git.autofetch": true,
@@ -362,7 +363,7 @@
                     "iconColor": "terminal.ansiRed",
                     "disableTooltip": true
                 },
-                "列選択モードの切り替え 【Ctrl+F13】": {
+                "列選択モードの切り替え 【F16】": {
                     "command": "editor.action.toggleColumnSelection",
                     "icon": "selection",
                     "iconColor": "terminal.ansiRed",
@@ -627,12 +628,6 @@
         },
         "ターミナル.全般": {
             "nestedItems": {
-                "ターミナル: アクティブなターミナルで選択したテキストを実行 【Alt+F13】": {
-                    "command": "workbench.action.terminal.runSelectedText",
-                    "icon": "terminal",
-                    "iconColor": "terminal.ansiMagenta",
-                    "disableTooltip": true
-                },
                 "cygpath: WindowsのパスをUnix形式に変換": {
                     "sequence": [
                         "workbench.action.terminal.focus",
