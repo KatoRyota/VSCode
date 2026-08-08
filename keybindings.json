@@ -1,18 +1,18 @@
 [
     {
-        "key": "f13",
+        "key": "ctrl+f13",
         "command": "workbench.action.evenEditorWidths"
     },
     {
-        "key": "f14",
-        "command": "行の位置: トップ 【F14】"
+        "key": "ctrl+f14",
+        "command": "行の位置: トップ"
     },
     {
-        "key": "f15",
-        "command": "行の位置: センター 【F15】"
+        "key": "ctrl+f15",
+        "command": "行の位置: センター"
     },
     {
-        "key": "f16",
+        "key": "ctrl+f16",
         "command": "editor.action.toggleColumnSelection"
     },
     {
