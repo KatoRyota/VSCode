@@ -1,0 +1,36 @@
+#allTabsMenu-allTabsView {
+    min-width: 700px !important;
+}
+
+/* ==========================================================================
+   Firefox userChrome.css
+   Edit Bookmark panel: wider fields + taller folder tree
+   Goal: improve usability while staying relatively resilient to UI changes
+   ========================================================================== */
+
+/* Enable a roomier bookmark edit panel without forcing a hard fixed width */
+#editBookmarkPanel {
+    min-width: 36em !important;
+    min-height: 32em !important;
+}
+
+/* Keep the inner rows comfortably wide, but still flexible */
+#editBookmarkPanelRows {
+    min-width: 32em !important;
+}
+
+/* Widen the main editable controls */
+#editBMPanel_namePicker,
+#editBMPanel_folderMenuList,
+#editBMPanel_tagsField {
+    min-width: 28em !important;
+    width: auto !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+}
+
+/* Make the folder tree easier to browse without letting it grow endlessly */
+#editBMPanel_folderTree {
+    min-height: 18em !important;
+    max-height: 24em !important;
+}
