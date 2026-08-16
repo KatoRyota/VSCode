@@ -1,35 +1,32 @@
+/* すべてのタブ一覧パネルの横幅を広げ、タブ名を見やすくする */
 #allTabsMenu-allTabsView {
     min-width: 700px !important;
 }
 
-/* ==========================================================================
-   Firefox userChrome.css
-   Edit Bookmark panel: wider fields + taller folder tree
-   Goal: improve usability while staying relatively resilient to UI changes
-   ========================================================================== */
-
-/* Enable a roomier bookmark edit panel without forcing a hard fixed width */
+/* ブックマーク編集パネル全体の最小サイズを広げ、
+   各項目やフォルダー一覧を窮屈になりにくくする */
 #editBookmarkPanel {
     min-width: 36em !important;
     min-height: 32em !important;
 }
 
-/* Keep the inner rows comfortably wide, but still flexible */
+/* 編集項目を並べる内部領域にも最小幅を持たせ、
+   入力欄が詰まって見えにくくなるのを防ぐ */
 #editBookmarkPanelRows {
     min-width: 32em !important;
 }
 
-/* Widen the main editable controls */
+/* 名前・保存先・タグの各入力欄を広げる。
+   最大幅の制限も外し、パネル幅に応じて余裕を持って表示する */
 #editBMPanel_namePicker,
 #editBMPanel_folderMenuList,
 #editBMPanel_tagsField {
     min-width: 28em !important;
-    width: auto !important;
     max-width: none !important;
-    box-sizing: border-box !important;
 }
 
-/* Make the folder tree easier to browse without letting it grow endlessly */
+/* 保存先フォルダーのツリー表示を高めに確保し、
+   一覧をたどりやすくしつつ、伸びすぎも抑える */
 #editBMPanel_folderTree {
     min-height: 18em !important;
     max-height: 24em !important;
