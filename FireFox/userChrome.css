@@ -3,6 +3,12 @@
     min-width: 700px !important;
 }
 
+/* List all tabs ポップアップ内の「最近のタブグループ」セクションを非表示 */
+#allTabsMenu-groupsView,
+#allTabsMenu-groupsSeparator {
+    display: none !important;
+}
+
 /* ブックマーク編集パネル全体の最小サイズを広げ、
    各項目やフォルダー一覧を窮屈になりにくくする */
 #editBookmarkPanel {

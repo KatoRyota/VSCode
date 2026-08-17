@@ -5,11 +5,11 @@
     },
     {
         "key": "ctrl+f14",
-        "command": "行の位置: トップ"
+        "command": "行の位置: トップ 【Ctrl+F14】"
     },
     {
         "key": "ctrl+f15",
-        "command": "行の位置: センター"
+        "command": "行の位置: センター 【Ctrl+F15】"
     },
     {
         "key": "ctrl+f16",
