@@ -9,6 +9,7 @@
     "editor.detectIndentation": false,
     "editor.copyWithSyntaxHighlighting": false,
     "editor.stickyScroll.enabled": false,
+    "editor.mouseWheelZoom": true,
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.editor.enablePreview": false,
@@ -18,6 +19,7 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.quickOpen.closeOnFocusLost": false,
+    "workbench.editor.showTabs": "none",
     "problems.visibility": false,
     "window.customMenuBarAltFocus": false,
     "window.menuBarVisibility": "compact",
@@ -34,6 +36,7 @@
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.stickyScroll.enabled": false,
     "terminal.integrated.altClickMovesCursor": false,
+    "terminal.integrated.mouseWheelZoom": true,
     "extensions.ignoreRecommendations": true,
     "npm.exclude": "",
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -82,6 +85,12 @@
     "[oracle-sql]": {
         "editor.defaultFormatter": "Oracle.sql-developer"
     },
+    "[groovy]": {
+        "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
     "markdown.extension.list.indentationSize": "inherit",
@@ -122,7 +131,7 @@
             "level": "none"
         }
     },
-    "favorites.dataLocation": "${workspaceFolder}\\.vscode",
+    "favorites.dataLocation": "c:\\Users\\kator\\AppData\\Roaming\\Code\\User\\favorites.user",
     "favorites.disablePreviewWarning": true,
     "favorites.showListSeparator": false,
     "commands.toggleSettings.showNotification": true,

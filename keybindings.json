@@ -1,18 +1,18 @@
 [
     {
-        "key": "ctrl+f13",
+        "key": "ctrl+shift+alt+p",
         "command": "workbench.action.evenEditorWidths"
     },
     {
-        "key": "ctrl+f14",
+        "key": "ctrl+shift+alt+o",
         "command": "行の位置: トップ 【Ctrl+F14】"
     },
     {
-        "key": "ctrl+f15",
+        "key": "ctrl+shift+alt+i",
         "command": "行の位置: センター 【Ctrl+F15】"
     },
     {
-        "key": "ctrl+f16",
+        "key": "ctrl+shift+alt+oem_5",
         "command": "editor.action.toggleColumnSelection"
     },
     {
@@ -24,5 +24,23 @@
         "key": "ctrl+b",
         "command": "-markdown.extension.editing.toggleBold",
         "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_4",
+        "command": "editor.action.fontZoomReset",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_4",
+        "command": "workbench.action.terminal.fontZoomReset",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+oem_6",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
     }
 ]
