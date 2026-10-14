@@ -19,7 +19,6 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.quickOpen.closeOnFocusLost": false,
-    "workbench.editor.showTabs": "none",
     "problems.visibility": false,
     "window.customMenuBarAltFocus": false,
     "window.menuBarVisibility": "compact",
