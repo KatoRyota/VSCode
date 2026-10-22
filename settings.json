@@ -18,7 +18,6 @@
     "workbench.activityBar.location": "top",
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.renderIndentGuides": "always",
-    "workbench.quickOpen.closeOnFocusLost": false,
     "problems.visibility": false,
     "window.customMenuBarAltFocus": false,
     "window.menuBarVisibility": "compact",
