@@ -13,6 +13,7 @@
     "search.showLineNumbers": true,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
     "workbench.editor.enablePreview": false,
+    "workbench.editor.tabActionCloseVisibility": false
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Light Modern",
     "workbench.activityBar.location": "top",
